@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-8239d38e5852cb32da5b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "crash_motor",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "crash_motor_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crash_motor_uninstall-Debug-c93c42b2103ae4e6c513.json",
+					"name" : "crash_motor_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_test_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_test_node-Debug-051dbcb66cf51b068e98.json",
+					"name" : "motor_test_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_test_utils::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_test_utils-Debug-34eef667fdb326671e90.json",
+					"name" : "motor_test_utils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pid_check_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pid_check_node-Debug-a7d3a46d032ab32615f5.json",
+					"name" : "pid_check_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pid_gain_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pid_gain_publisher-Debug-0fc9148b0fc1d4ce5ce9.json",
+					"name" : "pid_gain_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "teleop_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-teleop_node-Debug-bcd78c787723340575f2.json",
+					"name" : "teleop_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-dfea46b8e0ad945fab91.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/crashlab_rpi/robot_ws/src/crash_motor/build",
+		"source" : "/home/crashlab_rpi/robot_ws/src/crash_motor"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

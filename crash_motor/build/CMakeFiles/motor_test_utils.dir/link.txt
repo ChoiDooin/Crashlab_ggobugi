@@ -1,0 +1,2 @@
+/usr/bin/aarch64-linux-gnu-ar qc libmotor_test_utils.a CMakeFiles/motor_test_utils.dir/src/motor_test_util.cpp.o
+/usr/bin/aarch64-linux-gnu-ranlib libmotor_test_utils.a
