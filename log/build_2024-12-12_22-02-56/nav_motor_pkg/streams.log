@@ -1,0 +1,29 @@
+[2.845s] Invoking command in '/home/crashlab/robot_ws/build/nav_motor_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --build /home/crashlab/robot_ws/build/nav_motor_pkg -- -j4 -l4
+[3.256s] [ 25%] Built target motor_util
+[3.299s] [ 50%] Built target pid_gain_publisher
+[3.517s] [ 75%] Built target motor_run_node
+[3.531s] [100%] Built target test_running_node
+[3.593s] Invoked command in '/home/crashlab/robot_ws/build/nav_motor_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --build /home/crashlab/robot_ws/build/nav_motor_pkg -- -j4 -l4
+[3.647s] Invoking command in '/home/crashlab/robot_ws/build/nav_motor_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --install /home/crashlab/robot_ws/build/nav_motor_pkg
+[3.704s] -- Install configuration: ""
+[3.706s] -- Execute custom install script
+[3.708s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/lib/nav_motor_pkg/libmotor_util.a
+[3.710s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/lib/nav_motor_pkg/motor_run_node
+[3.711s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/lib/nav_motor_pkg/test_running_node
+[3.713s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/lib/nav_motor_pkg/pid_gain_publisher
+[3.715s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/share/ament_index/resource_index/package_run_dependencies/nav_motor_pkg
+[3.716s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/share/ament_index/resource_index/parent_prefix_path/nav_motor_pkg
+[3.718s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/environment/ament_prefix_path.sh
+[3.722s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/environment/ament_prefix_path.dsv
+[3.723s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/environment/path.sh
+[3.725s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/environment/path.dsv
+[3.726s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/local_setup.bash
+[3.728s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/local_setup.sh
+[3.729s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/local_setup.zsh
+[3.730s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/local_setup.dsv
+[3.731s] -- Symlinking: /home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/package.dsv
+[3.784s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/share/ament_index/resource_index/packages/nav_motor_pkg
+[3.786s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/cmake/nav_motor_pkgConfig.cmake
+[3.789s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/cmake/nav_motor_pkgConfig-version.cmake
+[3.791s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/package.xml
+[3.805s] Invoked command in '/home/crashlab/robot_ws/build/nav_motor_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --install /home/crashlab/robot_ws/build/nav_motor_pkg

@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+config/nav2_params.yaml
+launch/bringup.launch.py
+launch/navigation_launch.py
+nav_bringup/__init__.py
+nav_bringup.egg-info/PKG-INFO
+nav_bringup.egg-info/SOURCES.txt
+nav_bringup.egg-info/dependency_links.txt
+nav_bringup.egg-info/entry_points.txt
+nav_bringup.egg-info/requires.txt
+nav_bringup.egg-info/top_level.txt
+nav_bringup.egg-info/zip-safe
+resource/nav_bringup

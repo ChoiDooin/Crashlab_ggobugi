@@ -1,0 +1,701 @@
+[0.000000] (-) TimerEvent: {}
+[0.012191] (json_data) JobQueued: {'identifier': 'json_data', 'dependencies': OrderedDict()}
+[0.013292] (nav_motor_pkg) JobQueued: {'identifier': 'nav_motor_pkg', 'dependencies': OrderedDict()}
+[0.013815] (other_motor_pkg) JobQueued: {'identifier': 'other_motor_pkg', 'dependencies': OrderedDict()}
+[0.015123] (tutorial_ros2_motor) JobQueued: {'identifier': 'tutorial_ros2_motor', 'dependencies': OrderedDict()}
+[0.016364] (untitled_description) JobQueued: {'identifier': 'untitled_description', 'dependencies': OrderedDict()}
+[0.017707] (ydlidar_ros2_driver) JobQueued: {'identifier': 'ydlidar_ros2_driver', 'dependencies': OrderedDict()}
+[0.019939] (ydlidar_sdk) JobQueued: {'identifier': 'ydlidar_sdk', 'dependencies': OrderedDict()}
+[0.020704] (json_data) JobStarted: {'identifier': 'json_data'}
+[0.080617] (-) TimerEvent: {}
+[0.187516] (-) TimerEvent: {}
+[0.195579] (nav_motor_pkg) JobStarted: {'identifier': 'nav_motor_pkg'}
+[0.290992] (-) TimerEvent: {}
+[0.312900] (other_motor_pkg) JobStarted: {'identifier': 'other_motor_pkg'}
+[0.391556] (-) TimerEvent: {}
+[0.416307] (tutorial_ros2_motor) JobStarted: {'identifier': 'tutorial_ros2_motor'}
+[0.492897] (-) TimerEvent: {}
+[0.595547] (-) TimerEvent: {}
+[0.704981] (-) TimerEvent: {}
+[0.809610] (-) TimerEvent: {}
+[0.913341] (-) TimerEvent: {}
+[1.018272] (-) TimerEvent: {}
+[1.120449] (-) TimerEvent: {}
+[1.222236] (-) TimerEvent: {}
+[1.323761] (-) TimerEvent: {}
+[1.425238] (-) TimerEvent: {}
+[1.527907] (-) TimerEvent: {}
+[1.630529] (-) TimerEvent: {}
+[1.732332] (-) TimerEvent: {}
+[1.833784] (-) TimerEvent: {}
+[1.936163] (-) TimerEvent: {}
+[2.038624] (-) TimerEvent: {}
+[2.141104] (-) TimerEvent: {}
+[2.243197] (-) TimerEvent: {}
+[2.346732] (-) TimerEvent: {}
+[2.449785] (-) TimerEvent: {}
+[2.551588] (-) TimerEvent: {}
+[2.654461] (-) TimerEvent: {}
+[2.756124] (-) TimerEvent: {}
+[2.857895] (-) TimerEvent: {}
+[2.959803] (-) TimerEvent: {}
+[3.061490] (-) TimerEvent: {}
+[3.163443] (-) TimerEvent: {}
+[3.265386] (-) TimerEvent: {}
+[3.367362] (-) TimerEvent: {}
+[3.469465] (-) TimerEvent: {}
+[3.571706] (-) TimerEvent: {}
+[3.673430] (-) TimerEvent: {}
+[3.778506] (-) TimerEvent: {}
+[3.880511] (-) TimerEvent: {}
+[3.986626] (-) TimerEvent: {}
+[4.091039] (-) TimerEvent: {}
+[4.197018] (-) TimerEvent: {}
+[4.300440] (-) TimerEvent: {}
+[4.402999] (-) TimerEvent: {}
+[4.506709] (-) TimerEvent: {}
+[4.610889] (-) TimerEvent: {}
+[4.713229] (-) TimerEvent: {}
+[4.815322] (-) TimerEvent: {}
+[4.923723] (-) TimerEvent: {}
+[5.025823] (-) TimerEvent: {}
+[5.129009] (-) TimerEvent: {}
+[5.234017] (-) TimerEvent: {}
+[5.338000] (-) TimerEvent: {}
+[5.442399] (-) TimerEvent: {}
+[5.544453] (-) TimerEvent: {}
+[5.648564] (-) TimerEvent: {}
+[5.749947] (-) TimerEvent: {}
+[5.852840] (-) TimerEvent: {}
+[5.954697] (-) TimerEvent: {}
+[6.056724] (-) TimerEvent: {}
+[6.165977] (-) TimerEvent: {}
+[6.267879] (-) TimerEvent: {}
+[6.371181] (-) TimerEvent: {}
+[6.473613] (-) TimerEvent: {}
+[6.576924] (-) TimerEvent: {}
+[6.689237] (-) TimerEvent: {}
+[6.811272] (-) TimerEvent: {}
+[6.921738] (-) TimerEvent: {}
+[7.008389] (nav_motor_pkg) JobProgress: {'identifier': 'nav_motor_pkg', 'progress': 'cmake'}
+[7.026572] (nav_motor_pkg) JobProgress: {'identifier': 'nav_motor_pkg', 'progress': 'build'}
+[7.027713] (-) TimerEvent: {}
+[7.051246] (nav_motor_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/crashlab/robot_ws/build/nav_motor_pkg', '--', '-j4', '-l4'], 'cwd': '/home/crashlab/robot_ws/build/nav_motor_pkg', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'crashlab'), ('SSH_CLIENT', '192.168.225.60 48208 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/crashlab'), ('OLDPWD', '/home/crashlab'), ('SSH_TTY', '/dev/pts/8'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/home/crashlab/ros_ws'), ('COLCON_PREFIX_PATH', '/home/crashlab/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'crashlab'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '24'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/crashlab/robot_ws/install/ydlidar_sdk/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/crashlab/robot_ws/install/ydlidar_ros2_driver:/home/crashlab/robot_ws/install/untitled_description:/home/crashlab/robot_ws/install/tutorial_ros2_motor:/home/crashlab/robot_ws/install/other_motor_pkg:/home/crashlab/robot_ws/install/nav_motor_pkg:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/crashlab/robot_ws/build/nav_motor_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.225.60 48208 192.168.225.31 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/crashlab/robot_ws/build/nav_bringup:/home/crashlab/robot_ws/install/nav_bringup/lib/python3.10/site-packages:/home/crashlab/robot_ws/build/json_data:/home/crashlab/robot_ws/install/json_data/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/crashlab/robot_ws/install/ydlidar_sdk:/home/crashlab/robot_ws/install/ydlidar_ros2_driver:/home/crashlab/robot_ws/install/untitled_description:/home/crashlab/robot_ws/install/tutorial_ros2_motor:/home/crashlab/robot_ws/install/other_motor_pkg:/home/crashlab/robot_ws/install/nav_motor_pkg:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble')]), 'shell': False}
+[7.140106] (-) TimerEvent: {}
+[7.163609] (other_motor_pkg) JobProgress: {'identifier': 'other_motor_pkg', 'progress': 'cmake'}
+[7.172225] (other_motor_pkg) JobProgress: {'identifier': 'other_motor_pkg', 'progress': 'build'}
+[7.174449] (other_motor_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/crashlab/robot_ws/build/other_motor_pkg', '--', '-j4', '-l4'], 'cwd': '/home/crashlab/robot_ws/build/other_motor_pkg', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'crashlab'), ('SSH_CLIENT', '192.168.225.60 48208 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/crashlab'), ('OLDPWD', '/home/crashlab'), ('SSH_TTY', '/dev/pts/8'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/home/crashlab/ros_ws'), ('COLCON_PREFIX_PATH', '/home/crashlab/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'crashlab'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '24'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/crashlab/robot_ws/install/ydlidar_sdk/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/crashlab/robot_ws/install/ydlidar_ros2_driver:/home/crashlab/robot_ws/install/untitled_description:/home/crashlab/robot_ws/install/tutorial_ros2_motor:/home/crashlab/robot_ws/install/other_motor_pkg:/home/crashlab/robot_ws/install/nav_motor_pkg:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/crashlab/robot_ws/build/other_motor_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.225.60 48208 192.168.225.31 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/crashlab/robot_ws/build/nav_bringup:/home/crashlab/robot_ws/install/nav_bringup/lib/python3.10/site-packages:/home/crashlab/robot_ws/build/json_data:/home/crashlab/robot_ws/install/json_data/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/crashlab/robot_ws/install/ydlidar_sdk:/home/crashlab/robot_ws/install/ydlidar_ros2_driver:/home/crashlab/robot_ws/install/untitled_description:/home/crashlab/robot_ws/install/tutorial_ros2_motor:/home/crashlab/robot_ws/install/other_motor_pkg:/home/crashlab/robot_ws/install/nav_motor_pkg:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble')]), 'shell': False}
+[7.244618] (-) TimerEvent: {}
+[7.356142] (-) TimerEvent: {}
+[7.433189] (tutorial_ros2_motor) JobProgress: {'identifier': 'tutorial_ros2_motor', 'progress': 'cmake'}
+[7.448830] (tutorial_ros2_motor) JobProgress: {'identifier': 'tutorial_ros2_motor', 'progress': 'build'}
+[7.453632] (tutorial_ros2_motor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/crashlab/robot_ws/build/tutorial_ros2_motor', '--', '-j4', '-l4'], 'cwd': '/home/crashlab/robot_ws/build/tutorial_ros2_motor', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'crashlab'), ('SSH_CLIENT', '192.168.225.60 48208 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/crashlab'), ('OLDPWD', '/home/crashlab'), ('SSH_TTY', '/dev/pts/8'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/home/crashlab/ros_ws'), ('COLCON_PREFIX_PATH', '/home/crashlab/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'crashlab'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '24'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/crashlab/robot_ws/install/ydlidar_sdk/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/crashlab/robot_ws/install/ydlidar_ros2_driver:/home/crashlab/robot_ws/install/untitled_description:/home/crashlab/robot_ws/install/tutorial_ros2_motor:/home/crashlab/robot_ws/install/other_motor_pkg:/home/crashlab/robot_ws/install/nav_motor_pkg:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/crashlab/robot_ws/build/tutorial_ros2_motor'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.225.60 48208 192.168.225.31 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/crashlab/robot_ws/build/nav_bringup:/home/crashlab/robot_ws/install/nav_bringup/lib/python3.10/site-packages:/home/crashlab/robot_ws/build/json_data:/home/crashlab/robot_ws/install/json_data/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/crashlab/robot_ws/install/ydlidar_sdk:/home/crashlab/robot_ws/install/ydlidar_ros2_driver:/home/crashlab/robot_ws/install/untitled_description:/home/crashlab/robot_ws/install/tutorial_ros2_motor:/home/crashlab/robot_ws/install/other_motor_pkg:/home/crashlab/robot_ws/install/nav_motor_pkg:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble')]), 'shell': False}
+[7.539309] (-) TimerEvent: {}
+[7.652171] (-) TimerEvent: {}
+[7.785167] (-) TimerEvent: {}
+[7.898441] (-) TimerEvent: {}
+[8.001032] (-) TimerEvent: {}
+[8.108975] (-) TimerEvent: {}
+[8.220171] (-) TimerEvent: {}
+[8.332308] (-) TimerEvent: {}
+[8.444350] (-) TimerEvent: {}
+[8.555776] (-) TimerEvent: {}
+[8.678932] (-) TimerEvent: {}
+[8.786337] (-) TimerEvent: {}
+[8.890381] (-) TimerEvent: {}
+[8.994476] (-) TimerEvent: {}
+[9.102477] (-) TimerEvent: {}
+[9.171481] (other_motor_pkg) StdoutLine: {'line': b'[100%] Built target cap_motor_node\n'}
+[9.211215] (-) TimerEvent: {}
+[9.321596] (-) TimerEvent: {}
+[9.355204] (nav_motor_pkg) StdoutLine: {'line': b'[ 25%] Built target motor_util\n'}
+[9.421998] (-) TimerEvent: {}
+[9.522064] (other_motor_pkg) CommandEnded: {'returncode': 0}
+[9.543122] (-) TimerEvent: {}
+[9.612922] (other_motor_pkg) JobProgress: {'identifier': 'other_motor_pkg', 'progress': 'install'}
+[9.648749] (-) TimerEvent: {}
+[9.752639] (-) TimerEvent: {}
+[9.834268] (tutorial_ros2_motor) StdoutLine: {'line': b'[ 50%] Built target motor_node\n'}
+[9.854501] (-) TimerEvent: {}
+[9.922981] (other_motor_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/crashlab/robot_ws/build/other_motor_pkg'], 'cwd': '/home/crashlab/robot_ws/build/other_motor_pkg', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'crashlab'), ('SSH_CLIENT', '192.168.225.60 48208 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/crashlab'), ('OLDPWD', '/home/crashlab'), ('SSH_TTY', '/dev/pts/8'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/home/crashlab/ros_ws'), ('COLCON_PREFIX_PATH', '/home/crashlab/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'crashlab'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '24'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/crashlab/robot_ws/install/ydlidar_sdk/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/crashlab/robot_ws/install/ydlidar_ros2_driver:/home/crashlab/robot_ws/install/untitled_description:/home/crashlab/robot_ws/install/tutorial_ros2_motor:/home/crashlab/robot_ws/install/other_motor_pkg:/home/crashlab/robot_ws/install/nav_motor_pkg:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/crashlab/robot_ws/build/other_motor_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.225.60 48208 192.168.225.31 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/crashlab/robot_ws/build/nav_bringup:/home/crashlab/robot_ws/install/nav_bringup/lib/python3.10/site-packages:/home/crashlab/robot_ws/build/json_data:/home/crashlab/robot_ws/install/json_data/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/crashlab/robot_ws/install/ydlidar_sdk:/home/crashlab/robot_ws/install/ydlidar_ros2_driver:/home/crashlab/robot_ws/install/untitled_description:/home/crashlab/robot_ws/install/tutorial_ros2_motor:/home/crashlab/robot_ws/install/other_motor_pkg:/home/crashlab/robot_ws/install/nav_motor_pkg:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble')]), 'shell': False}
+[9.960098] (-) TimerEvent: {}
+[10.071951] (-) TimerEvent: {}
+[10.149972] (nav_motor_pkg) StdoutLine: {'line': b'[ 50%] Built target pid_gain_publisher\n'}
+[10.172444] (-) TimerEvent: {}
+[10.279872] (-) TimerEvent: {}
+[10.385624] (-) TimerEvent: {}
+[10.489066] (-) TimerEvent: {}
+[10.592120] (-) TimerEvent: {}
+[10.640468] (tutorial_ros2_motor) StdoutLine: {'line': b'[100%] Built target teleop_node\n'}
+[10.697874] (other_motor_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.699956] (-) TimerEvent: {}
+[10.712894] (other_motor_pkg) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[10.733493] (other_motor_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/other_motor_pkg//cap_motor_node\n'}
+[10.750463] (other_motor_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/other_motor_pkg/share/ament_index/resource_index/package_run_dependencies/other_motor_pkg\n'}
+[10.793191] (other_motor_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/other_motor_pkg/share/ament_index/resource_index/parent_prefix_path/other_motor_pkg\n'}
+[10.804316] (-) TimerEvent: {}
+[10.854716] (other_motor_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/environment/ament_prefix_path.sh\n'}
+[10.865534] (other_motor_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/environment/ament_prefix_path.dsv\n'}
+[10.872446] (other_motor_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/environment/path.sh\n'}
+[10.906860] (other_motor_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/environment/path.dsv\n'}
+[10.986315] (-) TimerEvent: {}
+[10.987951] (other_motor_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/local_setup.bash\n'}
+[10.988867] (nav_motor_pkg) StdoutLine: {'line': b'[ 75%] Built target test_running_node\n'}
+[11.036332] (other_motor_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/local_setup.sh\n'}
+[11.037147] (other_motor_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/local_setup.zsh\n'}
+[11.037983] (other_motor_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/local_setup.dsv\n'}
+[11.038956] (other_motor_pkg) StdoutLine: {'line': b'-- Symlinking: /home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/package.dsv\n'}
+[11.039751] (tutorial_ros2_motor) CommandEnded: {'returncode': 0}
+[11.044253] (tutorial_ros2_motor) JobProgress: {'identifier': 'tutorial_ros2_motor', 'progress': 'install'}
+[11.046617] (tutorial_ros2_motor) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/crashlab/robot_ws/build/tutorial_ros2_motor'], 'cwd': '/home/crashlab/robot_ws/build/tutorial_ros2_motor', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'crashlab'), ('SSH_CLIENT', '192.168.225.60 48208 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/crashlab'), ('OLDPWD', '/home/crashlab'), ('SSH_TTY', '/dev/pts/8'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/home/crashlab/ros_ws'), ('COLCON_PREFIX_PATH', '/home/crashlab/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'crashlab'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '24'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/crashlab/robot_ws/install/ydlidar_sdk/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/crashlab/robot_ws/install/ydlidar_ros2_driver:/home/crashlab/robot_ws/install/untitled_description:/home/crashlab/robot_ws/install/tutorial_ros2_motor:/home/crashlab/robot_ws/install/other_motor_pkg:/home/crashlab/robot_ws/install/nav_motor_pkg:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/crashlab/robot_ws/build/tutorial_ros2_motor'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.225.60 48208 192.168.225.31 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/crashlab/robot_ws/build/nav_bringup:/home/crashlab/robot_ws/install/nav_bringup/lib/python3.10/site-packages:/home/crashlab/robot_ws/build/json_data:/home/crashlab/robot_ws/install/json_data/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/crashlab/robot_ws/install/ydlidar_sdk:/home/crashlab/robot_ws/install/ydlidar_ros2_driver:/home/crashlab/robot_ws/install/untitled_description:/home/crashlab/robot_ws/install/tutorial_ros2_motor:/home/crashlab/robot_ws/install/other_motor_pkg:/home/crashlab/robot_ws/install/nav_motor_pkg:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble')]), 'shell': False}
+[11.059262] (other_motor_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/other_motor_pkg/share/ament_index/resource_index/packages/other_motor_pkg\n'}
+[11.068196] (other_motor_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/cmake/other_motor_pkgConfig.cmake\n'}
+[11.074009] (other_motor_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/cmake/other_motor_pkgConfig-version.cmake\n'}
+[11.075422] (other_motor_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/package.xml\n'}
+[11.090844] (-) TimerEvent: {}
+[11.163240] (other_motor_pkg) CommandEnded: {'returncode': 0}
+[11.192026] (-) TimerEvent: {}
+[11.299343] (-) TimerEvent: {}
+[11.422757] (-) TimerEvent: {}
+[11.529239] (-) TimerEvent: {}
+[11.577175] (tutorial_ros2_motor) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.649058] (tutorial_ros2_motor) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[11.649983] (-) TimerEvent: {}
+[11.698838] (tutorial_ros2_motor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/tutorial_ros2_motor/lib/tutorial_ros2_motor/motor_node\n'}
+[11.710277] (tutorial_ros2_motor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/tutorial_ros2_motor/lib/tutorial_ros2_motor/teleop_node\n'}
+[11.740306] (tutorial_ros2_motor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/tutorial_ros2_motor/share/tutorial_ros2_motor//config/motor_parameters.txt\n'}
+[11.773322] (-) TimerEvent: {}
+[11.800209] (tutorial_ros2_motor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/tutorial_ros2_motor/share/ament_index/resource_index/package_run_dependencies/tutorial_ros2_motor\n'}
+[11.802835] (tutorial_ros2_motor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/tutorial_ros2_motor/share/ament_index/resource_index/parent_prefix_path/tutorial_ros2_motor\n'}
+[11.857501] (tutorial_ros2_motor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/tutorial_ros2_motor/share/tutorial_ros2_motor/environment/ament_prefix_path.sh\n'}
+[11.858314] (tutorial_ros2_motor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/tutorial_ros2_motor/share/tutorial_ros2_motor/environment/ament_prefix_path.dsv\n'}
+[11.858982] (tutorial_ros2_motor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/tutorial_ros2_motor/share/tutorial_ros2_motor/environment/path.sh\n'}
+[11.859845] (tutorial_ros2_motor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/tutorial_ros2_motor/share/tutorial_ros2_motor/environment/path.dsv\n'}
+[11.895925] (-) TimerEvent: {}
+[11.955152] (tutorial_ros2_motor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/tutorial_ros2_motor/share/tutorial_ros2_motor/local_setup.bash\n'}
+[11.962471] (tutorial_ros2_motor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/tutorial_ros2_motor/share/tutorial_ros2_motor/local_setup.sh\n'}
+[12.004432] (-) TimerEvent: {}
+[12.008909] (tutorial_ros2_motor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/tutorial_ros2_motor/share/tutorial_ros2_motor/local_setup.zsh\n'}
+[12.042502] (tutorial_ros2_motor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/tutorial_ros2_motor/share/tutorial_ros2_motor/local_setup.dsv\n'}
+[12.043550] (tutorial_ros2_motor) StdoutLine: {'line': b'-- Symlinking: /home/crashlab/robot_ws/install/tutorial_ros2_motor/share/tutorial_ros2_motor/package.dsv\n'}
+[12.047869] (tutorial_ros2_motor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/tutorial_ros2_motor/share/ament_index/resource_index/packages/tutorial_ros2_motor\n'}
+[12.049408] (tutorial_ros2_motor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/tutorial_ros2_motor/share/tutorial_ros2_motor/cmake/tutorial_ros2_motorConfig.cmake\n'}
+[12.067791] (tutorial_ros2_motor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/tutorial_ros2_motor/share/tutorial_ros2_motor/cmake/tutorial_ros2_motorConfig-version.cmake\n'}
+[12.098793] (tutorial_ros2_motor) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/tutorial_ros2_motor/share/tutorial_ros2_motor/package.xml\n'}
+[12.112897] (-) TimerEvent: {}
+[12.211585] (nav_motor_pkg) StdoutLine: {'line': b'[100%] Built target motor_run_node\n'}
+[12.213117] (-) TimerEvent: {}
+[12.329608] (-) TimerEvent: {}
+[12.433049] (-) TimerEvent: {}
+[12.544173] (-) TimerEvent: {}
+[12.666627] (-) TimerEvent: {}
+[12.728203] (other_motor_pkg) JobEnded: {'identifier': 'other_motor_pkg', 'rc': 0}
+[12.749489] (untitled_description) JobStarted: {'identifier': 'untitled_description'}
+[12.767641] (-) TimerEvent: {}
+[12.874010] (tutorial_ros2_motor) CommandEnded: {'returncode': 0}
+[12.886332] (-) TimerEvent: {}
+[12.990924] (-) TimerEvent: {}
+[13.110690] (-) TimerEvent: {}
+[13.236934] (-) TimerEvent: {}
+[13.341605] (-) TimerEvent: {}
+[13.453998] (-) TimerEvent: {}
+[13.556093] (-) TimerEvent: {}
+[13.673431] (-) TimerEvent: {}
+[13.687995] (tutorial_ros2_motor) JobEnded: {'identifier': 'tutorial_ros2_motor', 'rc': 0}
+[13.701319] (nav_motor_pkg) CommandEnded: {'returncode': 0}
+[13.740918] (nav_motor_pkg) JobProgress: {'identifier': 'nav_motor_pkg', 'progress': 'install'}
+[13.741266] (nav_motor_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/crashlab/robot_ws/build/nav_motor_pkg'], 'cwd': '/home/crashlab/robot_ws/build/nav_motor_pkg', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'crashlab'), ('SSH_CLIENT', '192.168.225.60 48208 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/crashlab'), ('OLDPWD', '/home/crashlab'), ('SSH_TTY', '/dev/pts/8'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/home/crashlab/ros_ws'), ('COLCON_PREFIX_PATH', '/home/crashlab/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'crashlab'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '24'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/crashlab/robot_ws/install/ydlidar_sdk/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/crashlab/robot_ws/install/ydlidar_ros2_driver:/home/crashlab/robot_ws/install/untitled_description:/home/crashlab/robot_ws/install/tutorial_ros2_motor:/home/crashlab/robot_ws/install/other_motor_pkg:/home/crashlab/robot_ws/install/nav_motor_pkg:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/crashlab/robot_ws/build/nav_motor_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.225.60 48208 192.168.225.31 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/crashlab/robot_ws/build/nav_bringup:/home/crashlab/robot_ws/install/nav_bringup/lib/python3.10/site-packages:/home/crashlab/robot_ws/build/json_data:/home/crashlab/robot_ws/install/json_data/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/crashlab/robot_ws/install/ydlidar_sdk:/home/crashlab/robot_ws/install/ydlidar_ros2_driver:/home/crashlab/robot_ws/install/untitled_description:/home/crashlab/robot_ws/install/tutorial_ros2_motor:/home/crashlab/robot_ws/install/other_motor_pkg:/home/crashlab/robot_ws/install/nav_motor_pkg:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble')]), 'shell': False}
+[13.774370] (-) TimerEvent: {}
+[13.819903] (ydlidar_ros2_driver) JobStarted: {'identifier': 'ydlidar_ros2_driver'}
+[13.903522] (-) TimerEvent: {}
+[14.015029] (-) TimerEvent: {}
+[14.139228] (-) TimerEvent: {}
+[14.210879] (untitled_description) JobProgress: {'identifier': 'untitled_description', 'progress': 'cmake'}
+[14.244302] (-) TimerEvent: {}
+[14.294825] (untitled_description) JobProgress: {'identifier': 'untitled_description', 'progress': 'build'}
+[14.305250] (untitled_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/crashlab/robot_ws/build/untitled_description', '--', '-j4', '-l4'], 'cwd': '/home/crashlab/robot_ws/build/untitled_description', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'crashlab'), ('SSH_CLIENT', '192.168.225.60 48208 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/crashlab'), ('OLDPWD', '/home/crashlab'), ('SSH_TTY', '/dev/pts/8'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/home/crashlab/ros_ws'), ('COLCON_PREFIX_PATH', '/home/crashlab/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'crashlab'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '24'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/crashlab/robot_ws/install/ydlidar_sdk/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/crashlab/robot_ws/install/ydlidar_ros2_driver:/home/crashlab/robot_ws/install/untitled_description:/home/crashlab/robot_ws/install/tutorial_ros2_motor:/home/crashlab/robot_ws/install/other_motor_pkg:/home/crashlab/robot_ws/install/nav_motor_pkg:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/crashlab/robot_ws/build/untitled_description'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.225.60 48208 192.168.225.31 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/crashlab/robot_ws/build/nav_bringup:/home/crashlab/robot_ws/install/nav_bringup/lib/python3.10/site-packages:/home/crashlab/robot_ws/build/json_data:/home/crashlab/robot_ws/install/json_data/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/crashlab/robot_ws/install/ydlidar_sdk:/home/crashlab/robot_ws/install/ydlidar_ros2_driver:/home/crashlab/robot_ws/install/untitled_description:/home/crashlab/robot_ws/install/tutorial_ros2_motor:/home/crashlab/robot_ws/install/other_motor_pkg:/home/crashlab/robot_ws/install/nav_motor_pkg:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble')]), 'shell': False}
+[14.381584] (-) TimerEvent: {}
+[14.383453] (nav_motor_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.407290] (nav_motor_pkg) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[14.435793] (nav_motor_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg//config/motor_parameters.txt\n'}
+[14.482669] (nav_motor_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/lib/nav_motor_pkg/libmotor_util.a\n'}
+[14.484096] (-) TimerEvent: {}
+[14.518487] (nav_motor_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/lib/nav_motor_pkg/motor_run_node\n'}
+[14.551158] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'cmake'}
+[14.580531] (nav_motor_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/lib/nav_motor_pkg/test_running_node\n'}
+[14.590586] (-) TimerEvent: {}
+[14.620557] (nav_motor_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/lib/nav_motor_pkg/pid_gain_publisher\n'}
+[14.655480] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'build'}
+[14.698629] (nav_motor_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/share/ament_index/resource_index/package_run_dependencies/nav_motor_pkg\n'}
+[14.722520] (-) TimerEvent: {}
+[14.723773] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/crashlab/robot_ws/build/ydlidar_ros2_driver', '--', '-j4', '-l4'], 'cwd': '/home/crashlab/robot_ws/build/ydlidar_ros2_driver', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'crashlab'), ('SSH_CLIENT', '192.168.225.60 48208 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/crashlab'), ('OLDPWD', '/home/crashlab'), ('SSH_TTY', '/dev/pts/8'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/home/crashlab/ros_ws'), ('COLCON_PREFIX_PATH', '/home/crashlab/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'crashlab'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '24'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/crashlab/robot_ws/install/ydlidar_sdk/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/crashlab/robot_ws/install/ydlidar_ros2_driver:/home/crashlab/robot_ws/install/untitled_description:/home/crashlab/robot_ws/install/tutorial_ros2_motor:/home/crashlab/robot_ws/install/other_motor_pkg:/home/crashlab/robot_ws/install/nav_motor_pkg:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/crashlab/robot_ws/build/ydlidar_ros2_driver'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.225.60 48208 192.168.225.31 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/crashlab/robot_ws/build/nav_bringup:/home/crashlab/robot_ws/install/nav_bringup/lib/python3.10/site-packages:/home/crashlab/robot_ws/build/json_data:/home/crashlab/robot_ws/install/json_data/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/crashlab/robot_ws/install/ydlidar_sdk:/home/crashlab/robot_ws/install/ydlidar_ros2_driver:/home/crashlab/robot_ws/install/untitled_description:/home/crashlab/robot_ws/install/tutorial_ros2_motor:/home/crashlab/robot_ws/install/other_motor_pkg:/home/crashlab/robot_ws/install/nav_motor_pkg:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble')]), 'shell': False}
+[14.822780] (-) TimerEvent: {}
+[14.824154] (nav_motor_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/share/ament_index/resource_index/parent_prefix_path/nav_motor_pkg\n'}
+[14.825609] (nav_motor_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/environment/ament_prefix_path.sh\n'}
+[14.892862] (nav_motor_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/environment/ament_prefix_path.dsv\n'}
+[14.903437] (nav_motor_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/environment/path.sh\n'}
+[14.905263] (nav_motor_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/environment/path.dsv\n'}
+[14.921431] (nav_motor_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/local_setup.bash\n'}
+[14.988359] (-) TimerEvent: {}
+[15.007889] (nav_motor_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/local_setup.sh\n'}
+[15.057114] (nav_motor_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/local_setup.zsh\n'}
+[15.100401] (-) TimerEvent: {}
+[15.116116] (nav_motor_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/local_setup.dsv\n'}
+[15.117956] (nav_motor_pkg) StdoutLine: {'line': b'-- Symlinking: /home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/package.dsv\n'}
+[15.179560] (nav_motor_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/share/ament_index/resource_index/packages/nav_motor_pkg\n'}
+[15.312868] (-) TimerEvent: {}
+[15.314909] (nav_motor_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/cmake/nav_motor_pkgConfig.cmake\n'}
+[15.373884] (nav_motor_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/cmake/nav_motor_pkgConfig-version.cmake\n'}
+[15.374956] (nav_motor_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/package.xml\n'}
+[15.383284] (nav_motor_pkg) CommandEnded: {'returncode': 0}
+[15.434981] (-) TimerEvent: {}
+[15.546861] (-) TimerEvent: {}
+[15.662213] (-) TimerEvent: {}
+[15.766997] (-) TimerEvent: {}
+[15.881498] (-) TimerEvent: {}
+[15.997217] (-) TimerEvent: {}
+[16.103258] (-) TimerEvent: {}
+[16.148831] (nav_motor_pkg) JobEnded: {'identifier': 'nav_motor_pkg', 'rc': 0}
+[16.202361] (ydlidar_sdk) JobStarted: {'identifier': 'ydlidar_sdk'}
+[16.204447] (-) TimerEvent: {}
+[16.335820] (-) TimerEvent: {}
+[16.440307] (-) TimerEvent: {}
+[16.544094] (-) TimerEvent: {}
+[16.623341] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 50%] Built target ydlidar_ros2_driver_node\n'}
+[16.646827] (-) TimerEvent: {}
+[16.757445] (untitled_description) CommandEnded: {'returncode': 0}
+[16.770792] (-) TimerEvent: {}
+[16.788180] (untitled_description) JobProgress: {'identifier': 'untitled_description', 'progress': 'install'}
+[16.805523] (untitled_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/crashlab/robot_ws/build/untitled_description'], 'cwd': '/home/crashlab/robot_ws/build/untitled_description', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'crashlab'), ('SSH_CLIENT', '192.168.225.60 48208 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/crashlab'), ('OLDPWD', '/home/crashlab'), ('SSH_TTY', '/dev/pts/8'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/home/crashlab/ros_ws'), ('COLCON_PREFIX_PATH', '/home/crashlab/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'crashlab'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '24'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/crashlab/robot_ws/install/ydlidar_sdk/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/crashlab/robot_ws/install/ydlidar_ros2_driver:/home/crashlab/robot_ws/install/untitled_description:/home/crashlab/robot_ws/install/tutorial_ros2_motor:/home/crashlab/robot_ws/install/other_motor_pkg:/home/crashlab/robot_ws/install/nav_motor_pkg:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/crashlab/robot_ws/build/untitled_description'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.225.60 48208 192.168.225.31 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/crashlab/robot_ws/build/nav_bringup:/home/crashlab/robot_ws/install/nav_bringup/lib/python3.10/site-packages:/home/crashlab/robot_ws/build/json_data:/home/crashlab/robot_ws/install/json_data/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/crashlab/robot_ws/install/ydlidar_sdk:/home/crashlab/robot_ws/install/ydlidar_ros2_driver:/home/crashlab/robot_ws/install/untitled_description:/home/crashlab/robot_ws/install/tutorial_ros2_motor:/home/crashlab/robot_ws/install/other_motor_pkg:/home/crashlab/robot_ws/install/nav_motor_pkg:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble')]), 'shell': False}
+[16.879014] (-) TimerEvent: {}
+[16.971723] (ydlidar_sdk) JobProgress: {'identifier': 'ydlidar_sdk', 'progress': 'cmake'}
+[16.983393] (-) TimerEvent: {}
+[17.012742] (untitled_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.020921] (untitled_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[17.029577] (untitled_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description//launch/display.launch.py\n'}
+[17.030873] (untitled_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description//launch/dynamic_transform_publisher.py\n'}
+[17.031519] (untitled_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description//launch/gazebo.launch.py\n'}
+[17.032149] (untitled_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description//launch/navigation.launch.py\n'}
+[17.032646] (untitled_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description//launch/rviz.launch.py\n'}
+[17.033201] (untitled_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description//launch/sim.launch.py\n'}
+[17.040077] (untitled_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description//meshes/Caster_Wheel_1.stl\n'}
+[17.042499] (untitled_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description//meshes/Caster_Wheel_out_1.stl\n'}
+[17.049498] (untitled_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description//meshes/Left_Wheel_1.stl\n'}
+[17.059663] (untitled_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description//meshes/Right_Wheel_1.stl\n'}
+[17.060736] (untitled_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description//meshes/base_link.stl\n'}
+[17.061520] (untitled_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description//urdf/gazebo.xacro\n'}
+[17.062316] (untitled_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description//urdf/lidar.xacro\n'}
+[17.091146] (-) TimerEvent: {}
+[17.129760] (untitled_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description//urdf/materials.xacro\n'}
+[17.130772] (untitled_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description//urdf/untitled.gazebo\n'}
+[17.149756] (untitled_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description//urdf/untitled.trans\n'}
+[17.164499] (untitled_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description//urdf/untitled.xacro\n'}
+[17.224862] (-) TimerEvent: {}
+[17.226566] (untitled_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description//config/display.rviz\n'}
+[17.247629] (untitled_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description//config/mapper_params_online_async.yaml\n'}
+[17.270838] (ydlidar_sdk) JobProgress: {'identifier': 'ydlidar_sdk', 'progress': 'build'}
+[17.271104] (untitled_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description//config/nav2_params.yaml\n'}
+[17.271946] (untitled_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description//config/rjrj.rviz\n'}
+[17.272639] (ydlidar_sdk) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/crashlab/robot_ws/build/ydlidar_sdk', '--', '-j4', '-l4'], 'cwd': '/home/crashlab/robot_ws/build/ydlidar_sdk', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'crashlab'), ('SSH_CLIENT', '192.168.225.60 48208 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/crashlab'), ('OLDPWD', '/home/crashlab'), ('SSH_TTY', '/dev/pts/8'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/home/crashlab/ros_ws'), ('COLCON_PREFIX_PATH', '/home/crashlab/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'crashlab'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '24'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/crashlab/robot_ws/install/ydlidar_sdk/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/crashlab/robot_ws/install/ydlidar_ros2_driver:/home/crashlab/robot_ws/install/untitled_description:/home/crashlab/robot_ws/install/tutorial_ros2_motor:/home/crashlab/robot_ws/install/other_motor_pkg:/home/crashlab/robot_ws/install/nav_motor_pkg:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/crashlab/robot_ws/build/ydlidar_sdk'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.225.60 48208 192.168.225.31 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/crashlab/robot_ws/build/nav_bringup:/home/crashlab/robot_ws/install/nav_bringup/lib/python3.10/site-packages:/home/crashlab/robot_ws/build/json_data:/home/crashlab/robot_ws/install/json_data/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/crashlab/robot_ws/install/ydlidar_sdk:/home/crashlab/robot_ws/install/ydlidar_ros2_driver:/home/crashlab/robot_ws/install/untitled_description:/home/crashlab/robot_ws/install/tutorial_ros2_motor:/home/crashlab/robot_ws/install/other_motor_pkg:/home/crashlab/robot_ws/install/nav_motor_pkg')]), 'shell': False}
+[17.391547] (-) TimerEvent: {}
+[17.427787] (untitled_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description//config/twist_mux.yaml\n'}
+[17.522071] (-) TimerEvent: {}
+[17.580891] (untitled_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/ament_index/resource_index/package_run_dependencies/untitled_description\n'}
+[17.585197] (untitled_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/ament_index/resource_index/parent_prefix_path/untitled_description\n'}
+[17.586621] (untitled_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/environment/ament_prefix_path.sh\n'}
+[17.588010] (untitled_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/environment/ament_prefix_path.dsv\n'}
+[17.589257] (untitled_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/environment/path.sh\n'}
+[17.590581] (untitled_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/environment/path.dsv\n'}
+[17.591804] (untitled_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/local_setup.bash\n'}
+[17.593790] (untitled_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/local_setup.sh\n'}
+[17.616111] (untitled_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/local_setup.zsh\n'}
+[17.622661] (-) TimerEvent: {}
+[17.627635] (untitled_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/local_setup.dsv\n'}
+[17.644218] (untitled_description) StdoutLine: {'line': b'-- Symlinking: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/package.dsv\n'}
+[17.690283] (untitled_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/ament_index/resource_index/packages/untitled_description\n'}
+[17.696225] (untitled_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/cmake/untitled_descriptionConfig.cmake\n'}
+[17.732200] (-) TimerEvent: {}
+[17.761340] (untitled_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/cmake/untitled_descriptionConfig-version.cmake\n'}
+[17.814615] (untitled_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/package.xml\n'}
+[17.849655] (-) TimerEvent: {}
+[17.856536] (untitled_description) CommandEnded: {'returncode': 0}
+[17.882173] (ydlidar_ros2_driver) StdoutLine: {'line': b'[100%] Built target ydlidar_ros2_driver_client\n'}
+[17.951419] (-) TimerEvent: {}
+[18.060005] (-) TimerEvent: {}
+[18.166323] (-) TimerEvent: {}
+[18.282633] (-) TimerEvent: {}
+[18.406458] (-) TimerEvent: {}
+[18.468083] (untitled_description) JobEnded: {'identifier': 'untitled_description', 'rc': 0}
+[18.502618] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[18.533475] (-) TimerEvent: {}
+[18.578766] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'install'}
+[18.594527] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/crashlab/robot_ws/build/ydlidar_ros2_driver'], 'cwd': '/home/crashlab/robot_ws/build/ydlidar_ros2_driver', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'crashlab'), ('SSH_CLIENT', '192.168.225.60 48208 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/crashlab'), ('OLDPWD', '/home/crashlab'), ('SSH_TTY', '/dev/pts/8'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/home/crashlab/ros_ws'), ('COLCON_PREFIX_PATH', '/home/crashlab/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'crashlab'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '24'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/crashlab/robot_ws/install/ydlidar_sdk/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/crashlab/robot_ws/install/ydlidar_ros2_driver:/home/crashlab/robot_ws/install/untitled_description:/home/crashlab/robot_ws/install/tutorial_ros2_motor:/home/crashlab/robot_ws/install/other_motor_pkg:/home/crashlab/robot_ws/install/nav_motor_pkg:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/crashlab/robot_ws/build/ydlidar_ros2_driver'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.225.60 48208 192.168.225.31 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/crashlab/robot_ws/build/nav_bringup:/home/crashlab/robot_ws/install/nav_bringup/lib/python3.10/site-packages:/home/crashlab/robot_ws/build/json_data:/home/crashlab/robot_ws/install/json_data/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/crashlab/robot_ws/install/ydlidar_sdk:/home/crashlab/robot_ws/install/ydlidar_ros2_driver:/home/crashlab/robot_ws/install/untitled_description:/home/crashlab/robot_ws/install/tutorial_ros2_motor:/home/crashlab/robot_ws/install/other_motor_pkg:/home/crashlab/robot_ws/install/nav_motor_pkg:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble')]), 'shell': False}
+[18.646864] (-) TimerEvent: {}
+[18.738747] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.743314] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[18.761846] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node\n'}
+[18.773496] (-) TimerEvent: {}
+[18.800536] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client\n'}
+[18.801759] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py\n'}
+[18.835348] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py\n'}
+[18.860961] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py\n'}
+[18.870911] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml\n'}
+[18.873062] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh\n'}
+[18.901472] (-) TimerEvent: {}
+[18.918670] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz\n'}
+[18.940079] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver\n'}
+[18.941259] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver\n'}
+[18.941895] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh\n'}
+[18.948601] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv\n'}
+[18.951041] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh\n'}
+[18.951814] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv\n'}
+[18.952583] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash\n'}
+[18.953347] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh\n'}
+[18.954046] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh\n'}
+[19.032336] (-) TimerEvent: {}
+[19.076582] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv\n'}
+[19.078708] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv\n'}
+[19.080365] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver\n'}
+[19.081975] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake\n'}
+[19.124292] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake\n'}
+[19.147002] (-) TimerEvent: {}
+[19.230719] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml\n'}
+[19.300255] (-) TimerEvent: {}
+[19.303283] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[19.402689] (-) TimerEvent: {}
+[19.510824] (-) TimerEvent: {}
+[19.613018] (-) TimerEvent: {}
+[19.628995] (ydlidar_sdk) StdoutLine: {'line': b'[ 58%] Built target ydlidar_sdk\n'}
+[19.714981] (-) TimerEvent: {}
+[19.831288] (-) TimerEvent: {}
+[19.932527] (-) TimerEvent: {}
+[20.031879] (ydlidar_ros2_driver) JobEnded: {'identifier': 'ydlidar_ros2_driver', 'rc': 0}
+[20.042873] (-) TimerEvent: {}
+[20.131956] (ydlidar_sdk) StdoutLine: {'line': b'[ 66%] Built target etlidar_test\n'}
+[20.137736] (-) TimerEvent: {}
+[20.241739] (-) TimerEvent: {}
+[20.342828] (-) TimerEvent: {}
+[20.445187] (-) TimerEvent: {}
+[20.546601] (-) TimerEvent: {}
+[20.581367] (ydlidar_sdk) StdoutLine: {'line': b'[ 75%] Built target lidar_c_api_test\n'}
+[20.648523] (-) TimerEvent: {}
+[20.751259] (-) TimerEvent: {}
+[20.853514] (-) TimerEvent: {}
+[20.954670] (-) TimerEvent: {}
+[21.071358] (-) TimerEvent: {}
+[21.150885] (ydlidar_sdk) StdoutLine: {'line': b'[ 83%] Built target lidar_test\n'}
+[21.171758] (-) TimerEvent: {}
+[21.276159] (-) TimerEvent: {}
+[21.384610] (-) TimerEvent: {}
+[21.486192] (-) TimerEvent: {}
+[21.590003] (-) TimerEvent: {}
+[21.710862] (-) TimerEvent: {}
+[21.728959] (ydlidar_sdk) StdoutLine: {'line': b'[ 91%] Built target ydlidar_test\n'}
+[21.811630] (-) TimerEvent: {}
+[21.915733] (-) TimerEvent: {}
+[22.033037] (-) TimerEvent: {}
+[22.136434] (-) TimerEvent: {}
+[22.214370] (ydlidar_sdk) StdoutLine: {'line': b'[100%] Built target tof_test\n'}
+[22.236840] (-) TimerEvent: {}
+[22.344508] (-) TimerEvent: {}
+[22.364432] (json_data) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/crashlab/robot_ws/build/json_data/build', '--no-deps', 'symlink_data'], 'cwd': '/home/crashlab/robot_ws/build/json_data', 'env': {'RCUTILS_LOGGING_BUFFERED_STREAM': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'crashlab', 'SSH_CLIENT': '192.168.225.60 48208 22', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'RCUTILS_CONSOLE_OUTPUT_FORMAT': '[{severity}]: {message}', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/crashlab', 'OLDPWD': '/home/crashlab', 'SSH_TTY': '/dev/pts/8', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'ko_KR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_colcon_cd_root': '/home/crashlab/ros_ws', 'COLCON_PREFIX_PATH': '/home/crashlab/robot_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'crashlab', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '24', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/crashlab/robot_ws/install/ydlidar_sdk/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/crashlab/robot_ws/install/ydlidar_ros2_driver:/home/crashlab/robot_ws/install/untitled_description:/home/crashlab/robot_ws/install/tutorial_ros2_motor:/home/crashlab/robot_ws/install/other_motor_pkg:/home/crashlab/robot_ws/install/nav_motor_pkg:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'RCUTILS_LOGGING_USE_STDOUT': '0', 'PWD': '/home/crashlab/robot_ws/build/json_data', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.225.60 48208 192.168.225.31 22', 'RCUTILS_COLORIZED_OUTPUT': '1', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/crashlab/robot_ws/build/json_data/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/crashlab/robot_ws/install/json_data/lib/python3.10/site-packages:/home/crashlab/robot_ws/build/nav_bringup:/home/crashlab/robot_ws/install/nav_bringup/lib/python3.10/site-packages:/home/crashlab/robot_ws/build/json_data:/home/crashlab/robot_ws/install/json_data/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/crashlab/robot_ws/install/ydlidar_sdk:/home/crashlab/robot_ws/install/ydlidar_ros2_driver:/home/crashlab/robot_ws/install/untitled_description:/home/crashlab/robot_ws/install/tutorial_ros2_motor:/home/crashlab/robot_ws/install/other_motor_pkg:/home/crashlab/robot_ws/install/nav_motor_pkg'}, 'shell': False}
+[22.443294] (-) TimerEvent: {}
+[22.528770] (ydlidar_sdk) CommandEnded: {'returncode': 0}
+[22.547894] (-) TimerEvent: {}
+[22.570509] (ydlidar_sdk) JobProgress: {'identifier': 'ydlidar_sdk', 'progress': 'install'}
+[22.584188] (ydlidar_sdk) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/crashlab/robot_ws/build/ydlidar_sdk'], 'cwd': '/home/crashlab/robot_ws/build/ydlidar_sdk', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'crashlab'), ('SSH_CLIENT', '192.168.225.60 48208 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/crashlab'), ('OLDPWD', '/home/crashlab'), ('SSH_TTY', '/dev/pts/8'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/home/crashlab/ros_ws'), ('COLCON_PREFIX_PATH', '/home/crashlab/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'crashlab'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '24'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/crashlab/robot_ws/install/ydlidar_sdk/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/crashlab/robot_ws/install/ydlidar_ros2_driver:/home/crashlab/robot_ws/install/untitled_description:/home/crashlab/robot_ws/install/tutorial_ros2_motor:/home/crashlab/robot_ws/install/other_motor_pkg:/home/crashlab/robot_ws/install/nav_motor_pkg:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/crashlab/robot_ws/build/ydlidar_sdk'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.225.60 48208 192.168.225.31 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/crashlab/robot_ws/build/nav_bringup:/home/crashlab/robot_ws/install/nav_bringup/lib/python3.10/site-packages:/home/crashlab/robot_ws/build/json_data:/home/crashlab/robot_ws/install/json_data/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/crashlab/robot_ws/install/ydlidar_sdk:/home/crashlab/robot_ws/install/ydlidar_ros2_driver:/home/crashlab/robot_ws/install/untitled_description:/home/crashlab/robot_ws/install/tutorial_ros2_motor:/home/crashlab/robot_ws/install/other_motor_pkg:/home/crashlab/robot_ws/install/nav_motor_pkg')]), 'shell': False}
+[22.648566] (-) TimerEvent: {}
+[22.708478] (ydlidar_sdk) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[22.711738] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/include/core/base/datatype.h\n'}
+[22.714031] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/include/core/base/locker.h\n'}
+[22.735121] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/include/core/base/thread.h\n'}
+[22.764357] (-) TimerEvent: {}
+[22.776813] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/include/core/base/timer.h\n'}
+[22.784432] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/include/core/base/typedef.h\n'}
+[22.827612] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/include/core/base/utils.h\n'}
+[22.858258] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/include/core/base/v8stdint.h\n'}
+[22.865156] (-) TimerEvent: {}
+[22.870627] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/include/core/base/ydlidar.h\n'}
+[22.881205] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/include/core/common/ChannelDevice.h\n'}
+[22.885251] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h\n'}
+[22.923528] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/include/core/common/ydlidar_datatype.h\n'}
+[22.939819] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/include/core/common/ydlidar_def.h\n'}
+[22.958475] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/include/core/common/ydlidar_help.h\n'}
+[22.960345] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/include/core/common/ydlidar_protocol.h\n'}
+[22.964574] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/include/core/math/angles.h\n'}
+[22.965538] (-) TimerEvent: {}
+[22.982391] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/include/core/network/ActiveSocket.h\n'}
+[22.984652] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/include/core/network/PassiveSocket.h\n'}
+[22.988138] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/include/core/network/SimpleSocket.h\n'}
+[22.999645] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/include/core/network/StatTimer.h\n'}
+[23.000933] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/include/core/serial/common.h\n'}
+[23.004116] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/include/core/serial/serial.h\n'}
+[23.015459] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/include/core/serial/impl/unix/lock.h\n'}
+[23.044293] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/include/core/serial/impl/unix/unix.h\n'}
+[23.064041] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/include/core/serial/impl/unix/unix_serial.h\n'}
+[23.065730] (-) TimerEvent: {}
+[23.114942] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/include/src/CYdLidar.h\n'}
+[23.116626] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/include/src/ETLidarDriver.h\n'}
+[23.117388] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/include/src/ydlidar_driver.h\n'}
+[23.141006] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/include/src/ydlidar_sdk.h\n'}
+[23.141874] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/include/ydlidar_config.h\n'}
+[23.142744] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/lib/libydlidar_sdk.a\n'}
+[23.143499] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/lib/pkgconfig/YDLIDAR_SDK.pc\n'}
+[23.144210] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkConfig.cmake\n'}
+[23.144916] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkTargets.cmake\n'}
+[23.157150] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkConfigVersion.cmake\n'}
+[23.167563] (-) TimerEvent: {}
+[23.174274] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/FindYDLIDAR_SDK.cmake\n'}
+[23.175195] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK\n'}
+[23.178530] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/cmake_uninstall.cmake.in\n'}
+[23.179492] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/FindPackage.cmake.in\n'}
+[23.180250] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/PackageConfigVersion.cmake.in\n'}
+[23.180989] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/script_show_final_summary.cmake\n'}
+[23.181721] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/PackageConfig.cmake.in\n'}
+[23.228808] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/common\n'}
+[23.230557] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/common/ydlidar_parse.cmake\n'}
+[23.231679] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/common/ydlidar_base.cmake\n'}
+[23.232954] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/install_package.cmake\n'}
+[23.284466] (-) TimerEvent: {}
+[23.299440] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/PkgConfig.pc.in\n'}
+[23.303201] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/LICENSE.txt\n'}
+[23.304548] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/README.md\n'}
+[23.307004] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc\n'}
+[23.308831] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart\n'}
+[23.335600] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart/ydlidar_sdk_software_installation_guide.md\n'}
+[23.342474] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart/README.md\n'}
+[23.344356] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Dataset.md\n'}
+[23.359589] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/README.md\n'}
+[23.370667] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLIDAR_SDK_API_for_Developers.md\n'}
+[23.393243] (-) TimerEvent: {}
+[23.397313] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images\n'}
+[23.399609] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/FlowChart.png\n'}
+[23.404274] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_init.png\n'}
+[23.405935] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_architecture.png\n'}
+[23.437540] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sequence.png\n'}
+[23.454377] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/frame.png\n'}
+[23.456519] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/angle_q2.png\n'}
+[23.473208] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/YDLidar.png\n'}
+[23.474447] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/communication_mechanism.png\n'}
+[23.475570] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/EAI.png\n'}
+[23.483753] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/frame_intensity.png\n'}
+[23.484746] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/system_workflow.png\n'}
+[23.485713] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_scanning.png\n'}
+[23.486816] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/YDLidar.jpg\n'}
+[23.488040] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Diagram.md\n'}
+[23.489634] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.pdf\n'}
+[23.490837] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Tutorials.md\n'}
+[23.499489] (-) TimerEvent: {}
+[23.504793] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.html\n'}
+[23.507123] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar_SDK_Communication_Protocol.pdf\n'}
+[23.508692] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.md\n'}
+[23.510784] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials\n'}
+[23.521141] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/examine_the_simple_lidar_tutorial.md\n'}
+[23.530779] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_c++.md\n'}
+[23.532200] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_c.md\n'}
+[23.534874] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_python.md\n'}
+[23.541147] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_network_adapter_tutorial_c++.md\n'}
+[23.544195] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/SDK.pdf\n'}
+[23.547323] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs\n'}
+[23.548767] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Hardware_FAQs_cn.md\n'}
+[23.550065] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Software_FAQs_cn.md\n'}
+[23.553263] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Hardware_FAQs.md\n'}
+[23.559498] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/README.md\n'}
+[23.567655] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/General_FAQs.md\n'}
+[23.569697] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Software_FAQs.md\n'}
+[23.572774] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/General_FAQs_cn.md\n'}
+[23.575913] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto\n'}
+[23.578216] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_build_and_debug_using_vscode.md\n'}
+[23.581953] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_pull.md\n'}
+[23.583464] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_udev_rules.md\n'}
+[23.586841] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_build_and_install.md\n'}
+[23.589240] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/README.md\n'}
+[23.591532] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images\n'}
+[23.593034] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode\n'}
+[23.595458] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode/tasks.png\n'}
+[23.596793] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode/run_tasks.jpg\n'}
+[23.597674] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sdk_init.png\n'}
+[23.598652] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_build.png\n'}
+[23.599506] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ydlidar_lidar_monitor.png\n'}
+[23.600519] (-) TimerEvent: {}
+[23.604136] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sequence.png\n'}
+[23.606389] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_project.png\n'}
+[23.607972] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_exception.png\n'}
+[23.609401] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/cpack.png\n'}
+[23.610764] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_running.png\n'}
+[23.613935] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_library.png\n'}
+[23.615650] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ttyUSB1.png\n'}
+[23.617106] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ttyUSB0.png\n'}
+[23.620737] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sdk_scanning.png\n'}
+[23.623893] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_solve_slow_pull_from_cn.md\n'}
+[23.629417] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_gerenrate_vs_project_by_cmake.md\n'}
+[23.633075] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_csharp_project.md\n'}
+[23.639018] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/startup/initenv.sh\n'}
+[23.642292] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/bin/etlidar_test\n'}
+[23.644945] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/bin/tof_test\n'}
+[23.648864] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/bin/ydlidar_test\n'}
+[23.651939] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/crashlab/robot_ws/install/ydlidar_sdk/bin/lidar_c_api_test\n'}
+[23.657099] (ydlidar_sdk) CommandEnded: {'returncode': 0}
+[23.682002] (ydlidar_sdk) JobEnded: {'identifier': 'ydlidar_sdk', 'rc': 0}
+[23.701428] (-) TimerEvent: {}
+[23.804668] (-) TimerEvent: {}
+[23.907318] (-) TimerEvent: {}
+[24.009665] (-) TimerEvent: {}
+[24.112029] (-) TimerEvent: {}
+[24.216028] (-) TimerEvent: {}
+[24.321139] (-) TimerEvent: {}
+[24.426751] (-) TimerEvent: {}
+[24.528569] (-) TimerEvent: {}
+[24.632645] (-) TimerEvent: {}
+[24.733887] (-) TimerEvent: {}
+[24.852208] (-) TimerEvent: {}
+[24.954534] (-) TimerEvent: {}
+[25.057235] (-) TimerEvent: {}
+[25.158881] (-) TimerEvent: {}
+[25.261062] (-) TimerEvent: {}
+[25.363211] (-) TimerEvent: {}
+[25.465480] (-) TimerEvent: {}
+[25.568431] (-) TimerEvent: {}
+[25.671171] (-) TimerEvent: {}
+[25.774885] (-) TimerEvent: {}
+[25.876724] (-) TimerEvent: {}
+[25.978774] (-) TimerEvent: {}
+[26.080841] (-) TimerEvent: {}
+[26.184455] (-) TimerEvent: {}
+[26.287282] (-) TimerEvent: {}
+[26.390681] (-) TimerEvent: {}
+[26.492397] (-) TimerEvent: {}
+[26.596365] (-) TimerEvent: {}
+[26.698000] (-) TimerEvent: {}
+[26.802469] (-) TimerEvent: {}
+[26.908234] (-) TimerEvent: {}
+[27.009755] (-) TimerEvent: {}
+[27.120109] (-) TimerEvent: {}
+[27.224016] (-) TimerEvent: {}
+[27.329606] (-) TimerEvent: {}
+[27.432617] (-) TimerEvent: {}
+[27.535586] (-) TimerEvent: {}
+[27.639540] (-) TimerEvent: {}
+[27.742043] (-) TimerEvent: {}
+[27.844793] (-) TimerEvent: {}
+[27.949927] (-) TimerEvent: {}
+[28.052817] (-) TimerEvent: {}
+[28.154887] (-) TimerEvent: {}
+[28.257491] (-) TimerEvent: {}
+[28.361407] (-) TimerEvent: {}
+[28.462744] (-) TimerEvent: {}
+[28.565508] (-) TimerEvent: {}
+[28.675364] (-) TimerEvent: {}
+[28.780796] (-) TimerEvent: {}
+[28.890350] (-) TimerEvent: {}
+[28.992571] (-) TimerEvent: {}
+[29.096845] (-) TimerEvent: {}
+[29.198957] (-) TimerEvent: {}
+[29.304918] (-) TimerEvent: {}
+[29.410710] (-) TimerEvent: {}
+[29.518515] (-) TimerEvent: {}
+[29.621520] (-) TimerEvent: {}
+[29.725677] (-) TimerEvent: {}
+[29.827773] (-) TimerEvent: {}
+[29.935207] (-) TimerEvent: {}
+[30.040870] (-) TimerEvent: {}
+[30.146783] (-) TimerEvent: {}
+[30.249882] (-) TimerEvent: {}
+[30.352794] (-) TimerEvent: {}
+[30.461526] (-) TimerEvent: {}
+[30.563210] (-) TimerEvent: {}
+[30.664428] (-) TimerEvent: {}
+[30.766282] (-) TimerEvent: {}
+[30.873004] (-) TimerEvent: {}
+[30.981543] (-) TimerEvent: {}
+[31.086493] (-) TimerEvent: {}
+[31.131283] (json_data) StdoutLine: {'line': b'running develop\n'}
+[31.186904] (-) TimerEvent: {}
+[31.288622] (-) TimerEvent: {}
+[31.390859] (-) TimerEvent: {}
+[31.492139] (-) TimerEvent: {}
+[31.595341] (-) TimerEvent: {}
+[31.696552] (-) TimerEvent: {}
+[31.806294] (-) TimerEvent: {}
+[31.911429] (-) TimerEvent: {}
+[32.013628] (-) TimerEvent: {}
+[32.115601] (-) TimerEvent: {}
+[32.217222] (-) TimerEvent: {}
+[32.318232] (-) TimerEvent: {}
+[32.419420] (-) TimerEvent: {}
+[32.521386] (-) TimerEvent: {}
+[32.625125] (-) TimerEvent: {}
+[32.727361] (-) TimerEvent: {}
+[32.829568] (-) TimerEvent: {}
+[32.931933] (-) TimerEvent: {}
+[33.033943] (-) TimerEvent: {}
+[33.136025] (-) TimerEvent: {}
+[33.238048] (-) TimerEvent: {}
+[33.340341] (-) TimerEvent: {}
+[33.442279] (-) TimerEvent: {}
+[33.546157] (-) TimerEvent: {}
+[33.648369] (-) TimerEvent: {}
+[33.749933] (-) TimerEvent: {}
+[33.852265] (-) TimerEvent: {}
+[33.954305] (-) TimerEvent: {}
+[34.057115] (-) TimerEvent: {}
+[34.159299] (-) TimerEvent: {}
+[34.260599] (-) TimerEvent: {}
+[34.364998] (-) TimerEvent: {}
+[34.466417] (-) TimerEvent: {}
+[34.567973] (-) TimerEvent: {}
+[34.669178] (-) TimerEvent: {}
+[34.771109] (-) TimerEvent: {}
+[34.875113] (-) TimerEvent: {}
+[34.976896] (-) TimerEvent: {}
+[35.078016] (-) TimerEvent: {}
+[35.179095] (-) TimerEvent: {}
+[35.281011] (-) TimerEvent: {}
+[35.382956] (-) TimerEvent: {}
+[35.484495] (-) TimerEvent: {}
+[35.585694] (-) TimerEvent: {}
+[35.688072] (-) TimerEvent: {}
+[35.789273] (-) TimerEvent: {}
+[35.891569] (-) TimerEvent: {}
+[36.002744] (-) TimerEvent: {}
+[36.104822] (-) TimerEvent: {}
+[36.207019] (-) TimerEvent: {}
+[36.309037] (-) TimerEvent: {}
+[36.411249] (-) TimerEvent: {}
+[36.512442] (-) TimerEvent: {}
+[36.614698] (-) TimerEvent: {}
+[36.719243] (-) TimerEvent: {}
+[36.821489] (-) TimerEvent: {}
+[36.924355] (-) TimerEvent: {}
+[37.027706] (-) TimerEvent: {}
+[37.148087] (-) TimerEvent: {}
+[37.253606] (-) TimerEvent: {}
+[37.369794] (-) TimerEvent: {}
+[37.475446] (-) TimerEvent: {}
+[37.577555] (-) TimerEvent: {}
+[37.679818] (-) TimerEvent: {}
+[37.782986] (-) TimerEvent: {}
+[37.805852] (json_data) StdoutLine: {'line': b'running egg_info\n'}
+[37.808533] (json_data) StdoutLine: {'line': b'writing json_data.egg-info/PKG-INFO\n'}
+[37.810050] (json_data) StdoutLine: {'line': b'writing dependency_links to json_data.egg-info/dependency_links.txt\n'}
+[37.811362] (json_data) StdoutLine: {'line': b'writing entry points to json_data.egg-info/entry_points.txt\n'}
+[37.813126] (json_data) StdoutLine: {'line': b'writing requirements to json_data.egg-info/requires.txt\n'}
+[37.815759] (json_data) StdoutLine: {'line': b'writing top-level names to json_data.egg-info/top_level.txt\n'}
+[37.827565] (json_data) StdoutLine: {'line': b"reading manifest file 'json_data.egg-info/SOURCES.txt'\n"}
+[37.834194] (json_data) StdoutLine: {'line': b"writing manifest file 'json_data.egg-info/SOURCES.txt'\n"}
+[37.853700] (json_data) StdoutLine: {'line': b'running build_ext\n'}
+[37.855946] (json_data) StdoutLine: {'line': b'Creating /home/crashlab/robot_ws/install/json_data/lib/python3.10/site-packages/json-data.egg-link (link to .)\n'}
+[37.865505] (json_data) StdoutLine: {'line': b'Installing publisher script to /home/crashlab/robot_ws/install/json_data/lib/json_data\n'}
+[37.872715] (json_data) StdoutLine: {'line': b'\n'}
+[37.888320] (-) TimerEvent: {}
+[37.912365] (json_data) StdoutLine: {'line': b'Installed /home/crashlab/robot_ws/build/json_data\n'}
+[37.927238] (json_data) StdoutLine: {'line': b'running symlink_data\n'}
+[37.989069] (-) TimerEvent: {}
+[38.093699] (-) TimerEvent: {}
+[38.208479] (-) TimerEvent: {}
+[38.252129] (json_data) CommandEnded: {'returncode': 0}
+[38.311638] (-) TimerEvent: {}
+[38.454481] (-) TimerEvent: {}
+[38.584078] (-) TimerEvent: {}
+[38.616014] (json_data) JobEnded: {'identifier': 'json_data', 'rc': 0}
+[38.635925] (-) EventReactorShutdown: {}

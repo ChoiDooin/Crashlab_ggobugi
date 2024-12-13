@@ -1,0 +1,42 @@
+[1.116s] Invoking command in '/home/crashlab/robot_ws/build/untitled_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --build /home/crashlab/robot_ws/build/untitled_description -- -j4 -l4
+[2.799s] Invoked command in '/home/crashlab/robot_ws/build/untitled_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --build /home/crashlab/robot_ws/build/untitled_description -- -j4 -l4
+[2.832s] Invoking command in '/home/crashlab/robot_ws/build/untitled_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --install /home/crashlab/robot_ws/build/untitled_description
+[3.167s] -- Install configuration: ""
+[3.223s] -- Execute custom install script
+[3.255s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description//launch/display.launch.py
+[3.264s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description//launch/dynamic_transform_publisher.py
+[3.318s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description//launch/gazebo.launch.py
+[3.320s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description//launch/navigation.launch.py
+[3.383s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description//launch/rviz.launch.py
+[3.408s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description//launch/sim.launch.py
+[3.419s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description//meshes/Caster_Wheel_1.stl
+[3.438s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description//meshes/Caster_Wheel_out_1.stl
+[3.454s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description//meshes/Left_Wheel_1.stl
+[3.456s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description//meshes/Right_Wheel_1.stl
+[3.579s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description//meshes/base_link.stl
+[3.613s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description//urdf/gazebo.xacro
+[3.655s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description//urdf/lidar.xacro
+[3.690s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description//urdf/materials.xacro
+[3.692s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description//urdf/untitled.gazebo
+[3.736s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description//urdf/untitled.trans
+[3.768s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description//urdf/untitled.xacro
+[3.772s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description//config/display.rviz
+[3.774s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description//config/mapper_params_online_async.yaml
+[3.775s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description//config/rjrj.rviz
+[3.808s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description//config/twist_mux.yaml
+[3.915s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/ament_index/resource_index/package_run_dependencies/untitled_description
+[3.943s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/ament_index/resource_index/parent_prefix_path/untitled_description
+[3.984s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/environment/ament_prefix_path.sh
+[4.039s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/environment/ament_prefix_path.dsv
+[4.117s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/environment/path.sh
+[4.182s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/environment/path.dsv
+[4.207s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/local_setup.bash
+[4.246s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/local_setup.sh
+[4.289s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/local_setup.zsh
+[4.304s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/local_setup.dsv
+[4.306s] -- Symlinking: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/package.dsv
+[4.499s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/ament_index/resource_index/packages/untitled_description
+[4.504s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/cmake/untitled_descriptionConfig.cmake
+[4.514s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/cmake/untitled_descriptionConfig-version.cmake
+[4.517s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/package.xml
+[4.558s] Invoked command in '/home/crashlab/robot_ws/build/untitled_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --install /home/crashlab/robot_ws/build/untitled_description

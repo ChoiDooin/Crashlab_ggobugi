@@ -1,0 +1,26 @@
+[1.499s] Invoking command in '/home/crashlab/robot_ws/build/tutorial_ros2_motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --build /home/crashlab/robot_ws/build/tutorial_ros2_motor -- -j4 -l4
+[2.035s] [ 50%] Built target motor_node
+[2.056s] [100%] Built target teleop_node
+[2.123s] Invoked command in '/home/crashlab/robot_ws/build/tutorial_ros2_motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --build /home/crashlab/robot_ws/build/tutorial_ros2_motor -- -j4 -l4
+[4.912s] Invoking command in '/home/crashlab/robot_ws/build/tutorial_ros2_motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --install /home/crashlab/robot_ws/build/tutorial_ros2_motor
+[4.981s] -- Install configuration: ""
+[5.017s] -- Execute custom install script
+[5.019s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/tutorial_ros2_motor/lib/tutorial_ros2_motor/motor_node
+[5.020s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/tutorial_ros2_motor/lib/tutorial_ros2_motor/teleop_node
+[5.026s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/tutorial_ros2_motor/share/tutorial_ros2_motor//config/motor_parameters.txt
+[5.028s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/tutorial_ros2_motor/share/ament_index/resource_index/package_run_dependencies/tutorial_ros2_motor
+[5.044s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/tutorial_ros2_motor/share/ament_index/resource_index/parent_prefix_path/tutorial_ros2_motor
+[5.049s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/tutorial_ros2_motor/share/tutorial_ros2_motor/environment/ament_prefix_path.sh
+[5.050s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/tutorial_ros2_motor/share/tutorial_ros2_motor/environment/ament_prefix_path.dsv
+[5.051s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/tutorial_ros2_motor/share/tutorial_ros2_motor/environment/path.sh
+[5.053s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/tutorial_ros2_motor/share/tutorial_ros2_motor/environment/path.dsv
+[5.057s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/tutorial_ros2_motor/share/tutorial_ros2_motor/local_setup.bash
+[5.060s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/tutorial_ros2_motor/share/tutorial_ros2_motor/local_setup.sh
+[5.064s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/tutorial_ros2_motor/share/tutorial_ros2_motor/local_setup.zsh
+[5.065s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/tutorial_ros2_motor/share/tutorial_ros2_motor/local_setup.dsv
+[5.066s] -- Symlinking: /home/crashlab/robot_ws/install/tutorial_ros2_motor/share/tutorial_ros2_motor/package.dsv
+[5.120s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/tutorial_ros2_motor/share/ament_index/resource_index/packages/tutorial_ros2_motor
+[5.122s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/tutorial_ros2_motor/share/tutorial_ros2_motor/cmake/tutorial_ros2_motorConfig.cmake
+[5.125s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/tutorial_ros2_motor/share/tutorial_ros2_motor/cmake/tutorial_ros2_motorConfig-version.cmake
+[5.127s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/tutorial_ros2_motor/share/tutorial_ros2_motor/package.xml
+[5.136s] Invoked command in '/home/crashlab/robot_ws/build/tutorial_ros2_motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --install /home/crashlab/robot_ws/build/tutorial_ros2_motor

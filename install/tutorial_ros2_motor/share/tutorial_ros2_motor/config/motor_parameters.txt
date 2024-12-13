@@ -1,0 +1,1 @@
+/home/crashlab/robot_ws/src/tutorial_ros2_motor/config/motor_parameters.txt

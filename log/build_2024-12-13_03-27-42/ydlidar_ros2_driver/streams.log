@@ -1,0 +1,31 @@
+[0.892s] Invoking command in '/home/crashlab/robot_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --build /home/crashlab/robot_ws/build/ydlidar_ros2_driver -- -j4 -l4
+[2.679s] [ 50%] Built target ydlidar_ros2_driver_node
+[3.809s] [100%] Built target ydlidar_ros2_driver_client
+[4.434s] Invoked command in '/home/crashlab/robot_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --build /home/crashlab/robot_ws/build/ydlidar_ros2_driver -- -j4 -l4
+[4.486s] Invoking command in '/home/crashlab/robot_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --install /home/crashlab/robot_ws/build/ydlidar_ros2_driver
+[4.620s] -- Install configuration: ""
+[4.648s] -- Execute custom install script
+[4.664s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node
+[4.682s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client
+[4.684s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py
+[4.730s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py
+[4.740s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py
+[4.758s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml
+[4.781s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh
+[4.781s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz
+[4.800s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver
+[4.824s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver
+[4.831s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh
+[4.843s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv
+[4.876s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh
+[4.877s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv
+[4.879s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash
+[4.902s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh
+[4.926s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh
+[4.931s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv
+[4.940s] -- Symlinking: /home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv
+[5.323s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver
+[5.335s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake
+[5.357s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake
+[5.368s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml
+[5.428s] Invoked command in '/home/crashlab/robot_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --install /home/crashlab/robot_ws/build/ydlidar_ros2_driver

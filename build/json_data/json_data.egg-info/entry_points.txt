@@ -1,0 +1,3 @@
+[console_scripts]
+publisher = json_data.pub:main
+

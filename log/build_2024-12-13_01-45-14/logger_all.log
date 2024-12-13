@@ -1,0 +1,558 @@
+[2.700s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[2.702s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffa9cfe680>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa9df7610>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa9df7610>>, mixin_verb=('build',))
+[6.719s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[6.720s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[6.720s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[6.721s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[6.721s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[6.721s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[6.721s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/crashlab/robot_ws'
+[6.723s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[6.724s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[6.726s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[6.728s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[6.728s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[6.729s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[6.729s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[6.729s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[6.729s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[6.875s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[6.876s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[6.878s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[6.879s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[6.879s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[6.880s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[6.880s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[6.881s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[6.882s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[6.885s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[6.886s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[6.888s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[6.890s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[6.891s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[6.893s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[6.894s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[6.896s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[6.898s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[6.899s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[6.900s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[6.901s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[6.903s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[6.904s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[6.906s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[6.907s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[6.908s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[6.909s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[6.910s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[6.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extensions ['ignore', 'ignore_ament_install']
+[6.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'ignore'
+[6.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'ignore_ament_install'
+[6.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extensions ['colcon_pkg']
+[6.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'colcon_pkg'
+[6.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extensions ['colcon_meta']
+[6.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'colcon_meta'
+[6.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extensions ['ros']
+[6.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'ros'
+[6.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extensions ['cmake', 'python']
+[6.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'cmake'
+[7.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'python'
+[7.310s] DEBUG:colcon.colcon_core.package_identification:Package 'src/YDLidar-SDK' with type 'cmake' and name 'ydlidar_sdk'
+[7.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/json_data) by extensions ['ignore', 'ignore_ament_install']
+[7.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/json_data) by extension 'ignore'
+[7.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/json_data) by extension 'ignore_ament_install'
+[7.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/json_data) by extensions ['colcon_pkg']
+[7.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/json_data) by extension 'colcon_pkg'
+[7.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/json_data) by extensions ['colcon_meta']
+[7.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/json_data) by extension 'colcon_meta'
+[7.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/json_data) by extensions ['ros']
+[7.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/json_data) by extension 'ros'
+[7.356s] DEBUG:colcon.colcon_core.package_identification:Package 'src/json_data' with type 'ros.ament_python' and name 'json_data'
+[7.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_bringup) by extensions ['ignore', 'ignore_ament_install']
+[7.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_bringup) by extension 'ignore'
+[7.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_bringup) by extension 'ignore_ament_install'
+[7.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_bringup) by extensions ['colcon_pkg']
+[7.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_bringup) by extension 'colcon_pkg'
+[7.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_bringup) by extensions ['colcon_meta']
+[7.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_bringup) by extension 'colcon_meta'
+[7.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_bringup) by extensions ['ros']
+[7.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_bringup) by extension 'ros'
+[7.375s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav_bringup' with type 'ros.ament_python' and name 'nav_bringup'
+[7.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_motor_pkg) by extensions ['ignore', 'ignore_ament_install']
+[7.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_motor_pkg) by extension 'ignore'
+[7.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_motor_pkg) by extension 'ignore_ament_install'
+[7.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_motor_pkg) by extensions ['colcon_pkg']
+[7.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_motor_pkg) by extension 'colcon_pkg'
+[7.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_motor_pkg) by extensions ['colcon_meta']
+[7.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_motor_pkg) by extension 'colcon_meta'
+[7.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_motor_pkg) by extensions ['ros']
+[7.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_motor_pkg) by extension 'ros'
+[7.396s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav_motor_pkg' with type 'ros.ament_cmake' and name 'nav_motor_pkg'
+[7.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/other_motor_pkg) by extensions ['ignore', 'ignore_ament_install']
+[7.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/other_motor_pkg) by extension 'ignore'
+[7.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/other_motor_pkg) by extension 'ignore_ament_install'
+[7.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/other_motor_pkg) by extensions ['colcon_pkg']
+[7.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/other_motor_pkg) by extension 'colcon_pkg'
+[7.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/other_motor_pkg) by extensions ['colcon_meta']
+[7.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/other_motor_pkg) by extension 'colcon_meta'
+[7.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/other_motor_pkg) by extensions ['ros']
+[7.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/other_motor_pkg) by extension 'ros'
+[7.411s] DEBUG:colcon.colcon_core.package_identification:Package 'src/other_motor_pkg' with type 'ros.ament_cmake' and name 'other_motor_pkg'
+[7.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_ros2_motor) by extensions ['ignore', 'ignore_ament_install']
+[7.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_ros2_motor) by extension 'ignore'
+[7.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_ros2_motor) by extension 'ignore_ament_install'
+[7.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_ros2_motor) by extensions ['colcon_pkg']
+[7.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_ros2_motor) by extension 'colcon_pkg'
+[7.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_ros2_motor) by extensions ['colcon_meta']
+[7.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_ros2_motor) by extension 'colcon_meta'
+[7.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_ros2_motor) by extensions ['ros']
+[7.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_ros2_motor) by extension 'ros'
+[7.431s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tutorial_ros2_motor' with type 'ros.ament_cmake' and name 'tutorial_ros2_motor'
+[7.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/untitled_description) by extensions ['ignore', 'ignore_ament_install']
+[7.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/untitled_description) by extension 'ignore'
+[7.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/untitled_description) by extension 'ignore_ament_install'
+[7.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/untitled_description) by extensions ['colcon_pkg']
+[7.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/untitled_description) by extension 'colcon_pkg'
+[7.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/untitled_description) by extensions ['colcon_meta']
+[7.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/untitled_description) by extension 'colcon_meta'
+[7.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/untitled_description) by extensions ['ros']
+[7.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/untitled_description) by extension 'ros'
+[7.449s] DEBUG:colcon.colcon_core.package_identification:Package 'src/untitled_description' with type 'ros.ament_cmake' and name 'untitled_description'
+[7.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver_bs) by extensions ['ignore', 'ignore_ament_install']
+[7.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver_bs) by extension 'ignore'
+[7.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver_bs) by extension 'ignore_ament_install'
+[7.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver_bs) by extensions ['colcon_pkg']
+[7.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver_bs) by extension 'colcon_pkg'
+[7.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver_bs) by extensions ['colcon_meta']
+[7.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver_bs) by extension 'colcon_meta'
+[7.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver_bs) by extensions ['ros']
+[7.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver_bs) by extension 'ros'
+[7.465s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ydlidar_ros2_driver_bs' with type 'ros.ament_cmake' and name 'ydlidar_ros2_driver'
+[7.467s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[7.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[7.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[7.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[7.470s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[8.001s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[8.002s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[8.029s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/crashlab/robot_ws/install/nav_bringup' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[8.085s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/crashlab/robot_ws/install
+[8.117s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 320 installed packages in /opt/ros/humble
+[8.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[9.467s] Level 5:colcon.colcon_core.verb:set package 'json_data' build argument 'cmake_args' from command line to 'None'
+[9.468s] Level 5:colcon.colcon_core.verb:set package 'json_data' build argument 'cmake_target' from command line to 'None'
+[9.468s] Level 5:colcon.colcon_core.verb:set package 'json_data' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[9.469s] Level 5:colcon.colcon_core.verb:set package 'json_data' build argument 'cmake_clean_cache' from command line to 'False'
+[9.470s] Level 5:colcon.colcon_core.verb:set package 'json_data' build argument 'cmake_clean_first' from command line to 'False'
+[9.470s] Level 5:colcon.colcon_core.verb:set package 'json_data' build argument 'cmake_force_configure' from command line to 'False'
+[9.471s] Level 5:colcon.colcon_core.verb:set package 'json_data' build argument 'ament_cmake_args' from command line to 'None'
+[9.472s] Level 5:colcon.colcon_core.verb:set package 'json_data' build argument 'catkin_cmake_args' from command line to 'None'
+[9.472s] Level 5:colcon.colcon_core.verb:set package 'json_data' build argument 'catkin_skip_building_tests' from command line to 'False'
+[9.473s] DEBUG:colcon.colcon_core.verb:Building package 'json_data' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/crashlab/robot_ws/build/json_data', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/crashlab/robot_ws/install/json_data', 'merge_install': False, 'path': '/home/crashlab/robot_ws/src/json_data', 'symlink_install': True, 'test_result_base': None}
+[9.477s] Level 5:colcon.colcon_core.verb:set package 'nav_bringup' build argument 'cmake_args' from command line to 'None'
+[9.478s] Level 5:colcon.colcon_core.verb:set package 'nav_bringup' build argument 'cmake_target' from command line to 'None'
+[9.479s] Level 5:colcon.colcon_core.verb:set package 'nav_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[9.479s] Level 5:colcon.colcon_core.verb:set package 'nav_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[9.480s] Level 5:colcon.colcon_core.verb:set package 'nav_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[9.480s] Level 5:colcon.colcon_core.verb:set package 'nav_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[9.480s] Level 5:colcon.colcon_core.verb:set package 'nav_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[9.481s] Level 5:colcon.colcon_core.verb:set package 'nav_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[9.481s] Level 5:colcon.colcon_core.verb:set package 'nav_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[9.481s] DEBUG:colcon.colcon_core.verb:Building package 'nav_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/crashlab/robot_ws/build/nav_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/crashlab/robot_ws/install/nav_bringup', 'merge_install': False, 'path': '/home/crashlab/robot_ws/src/nav_bringup', 'symlink_install': True, 'test_result_base': None}
+[9.486s] Level 5:colcon.colcon_core.verb:set package 'nav_motor_pkg' build argument 'cmake_args' from command line to 'None'
+[9.487s] Level 5:colcon.colcon_core.verb:set package 'nav_motor_pkg' build argument 'cmake_target' from command line to 'None'
+[9.487s] Level 5:colcon.colcon_core.verb:set package 'nav_motor_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[9.488s] Level 5:colcon.colcon_core.verb:set package 'nav_motor_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[9.488s] Level 5:colcon.colcon_core.verb:set package 'nav_motor_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[9.488s] Level 5:colcon.colcon_core.verb:set package 'nav_motor_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[9.489s] Level 5:colcon.colcon_core.verb:set package 'nav_motor_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[9.489s] Level 5:colcon.colcon_core.verb:set package 'nav_motor_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[9.489s] Level 5:colcon.colcon_core.verb:set package 'nav_motor_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[9.490s] DEBUG:colcon.colcon_core.verb:Building package 'nav_motor_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/crashlab/robot_ws/build/nav_motor_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/crashlab/robot_ws/install/nav_motor_pkg', 'merge_install': False, 'path': '/home/crashlab/robot_ws/src/nav_motor_pkg', 'symlink_install': True, 'test_result_base': None}
+[9.494s] Level 5:colcon.colcon_core.verb:set package 'other_motor_pkg' build argument 'cmake_args' from command line to 'None'
+[9.495s] Level 5:colcon.colcon_core.verb:set package 'other_motor_pkg' build argument 'cmake_target' from command line to 'None'
+[9.496s] Level 5:colcon.colcon_core.verb:set package 'other_motor_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[9.497s] Level 5:colcon.colcon_core.verb:set package 'other_motor_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[9.498s] Level 5:colcon.colcon_core.verb:set package 'other_motor_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[9.499s] Level 5:colcon.colcon_core.verb:set package 'other_motor_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[9.500s] Level 5:colcon.colcon_core.verb:set package 'other_motor_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[9.500s] Level 5:colcon.colcon_core.verb:set package 'other_motor_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[9.501s] Level 5:colcon.colcon_core.verb:set package 'other_motor_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[9.502s] DEBUG:colcon.colcon_core.verb:Building package 'other_motor_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/crashlab/robot_ws/build/other_motor_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/crashlab/robot_ws/install/other_motor_pkg', 'merge_install': False, 'path': '/home/crashlab/robot_ws/src/other_motor_pkg', 'symlink_install': True, 'test_result_base': None}
+[9.506s] Level 5:colcon.colcon_core.verb:set package 'tutorial_ros2_motor' build argument 'cmake_args' from command line to 'None'
+[9.508s] Level 5:colcon.colcon_core.verb:set package 'tutorial_ros2_motor' build argument 'cmake_target' from command line to 'None'
+[9.508s] Level 5:colcon.colcon_core.verb:set package 'tutorial_ros2_motor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[9.509s] Level 5:colcon.colcon_core.verb:set package 'tutorial_ros2_motor' build argument 'cmake_clean_cache' from command line to 'False'
+[9.509s] Level 5:colcon.colcon_core.verb:set package 'tutorial_ros2_motor' build argument 'cmake_clean_first' from command line to 'False'
+[9.509s] Level 5:colcon.colcon_core.verb:set package 'tutorial_ros2_motor' build argument 'cmake_force_configure' from command line to 'False'
+[9.510s] Level 5:colcon.colcon_core.verb:set package 'tutorial_ros2_motor' build argument 'ament_cmake_args' from command line to 'None'
+[9.510s] Level 5:colcon.colcon_core.verb:set package 'tutorial_ros2_motor' build argument 'catkin_cmake_args' from command line to 'None'
+[9.510s] Level 5:colcon.colcon_core.verb:set package 'tutorial_ros2_motor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[9.511s] DEBUG:colcon.colcon_core.verb:Building package 'tutorial_ros2_motor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/crashlab/robot_ws/build/tutorial_ros2_motor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/crashlab/robot_ws/install/tutorial_ros2_motor', 'merge_install': False, 'path': '/home/crashlab/robot_ws/src/tutorial_ros2_motor', 'symlink_install': True, 'test_result_base': None}
+[9.515s] Level 5:colcon.colcon_core.verb:set package 'untitled_description' build argument 'cmake_args' from command line to 'None'
+[9.516s] Level 5:colcon.colcon_core.verb:set package 'untitled_description' build argument 'cmake_target' from command line to 'None'
+[9.516s] Level 5:colcon.colcon_core.verb:set package 'untitled_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[9.517s] Level 5:colcon.colcon_core.verb:set package 'untitled_description' build argument 'cmake_clean_cache' from command line to 'False'
+[9.517s] Level 5:colcon.colcon_core.verb:set package 'untitled_description' build argument 'cmake_clean_first' from command line to 'False'
+[9.517s] Level 5:colcon.colcon_core.verb:set package 'untitled_description' build argument 'cmake_force_configure' from command line to 'False'
+[9.517s] Level 5:colcon.colcon_core.verb:set package 'untitled_description' build argument 'ament_cmake_args' from command line to 'None'
+[9.518s] Level 5:colcon.colcon_core.verb:set package 'untitled_description' build argument 'catkin_cmake_args' from command line to 'None'
+[9.518s] Level 5:colcon.colcon_core.verb:set package 'untitled_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[9.518s] DEBUG:colcon.colcon_core.verb:Building package 'untitled_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/crashlab/robot_ws/build/untitled_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/crashlab/robot_ws/install/untitled_description', 'merge_install': False, 'path': '/home/crashlab/robot_ws/src/untitled_description', 'symlink_install': True, 'test_result_base': None}
+[9.522s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_args' from command line to 'None'
+[9.523s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target' from command line to 'None'
+[9.524s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[9.525s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[9.525s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_first' from command line to 'False'
+[9.525s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_force_configure' from command line to 'False'
+[9.526s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'ament_cmake_args' from command line to 'None'
+[9.526s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[9.527s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[9.527s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_ros2_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/crashlab/robot_ws/build/ydlidar_ros2_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/crashlab/robot_ws/install/ydlidar_ros2_driver', 'merge_install': False, 'path': '/home/crashlab/robot_ws/src/ydlidar_ros2_driver_bs', 'symlink_install': True, 'test_result_base': None}
+[9.531s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_args' from command line to 'None'
+[9.532s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_target' from command line to 'None'
+[9.532s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[9.532s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[9.533s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[9.533s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[9.533s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[9.533s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[9.533s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[9.534s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/crashlab/robot_ws/build/ydlidar_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/crashlab/robot_ws/install/ydlidar_sdk', 'merge_install': False, 'path': '/home/crashlab/robot_ws/src/YDLidar-SDK', 'symlink_install': True, 'test_result_base': None}
+[9.536s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[9.545s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[9.552s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/crashlab/robot_ws/src/json_data' with build type 'ament_python'
+[9.554s] Level 1:colcon.colcon_core.shell:create_environment_hook('json_data', 'ament_prefix_path')
+[9.603s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[9.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crashlab/robot_ws/install/json_data/share/json_data/hook/ament_prefix_path.ps1'
+[9.635s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/crashlab/robot_ws/install/json_data/share/json_data/hook/ament_prefix_path.dsv'
+[9.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crashlab/robot_ws/install/json_data/share/json_data/hook/ament_prefix_path.sh'
+[9.698s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.701s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.760s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/crashlab/robot_ws/src/nav_bringup' with build type 'ament_python'
+[9.762s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav_bringup', 'ament_prefix_path')
+[9.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crashlab/robot_ws/install/nav_bringup/share/nav_bringup/hook/ament_prefix_path.ps1'
+[9.777s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/crashlab/robot_ws/install/nav_bringup/share/nav_bringup/hook/ament_prefix_path.dsv'
+[9.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crashlab/robot_ws/install/nav_bringup/share/nav_bringup/hook/ament_prefix_path.sh'
+[9.792s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.793s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.849s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/crashlab/robot_ws/src/nav_motor_pkg' with build type 'ament_cmake'
+[9.852s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/crashlab/robot_ws/src/nav_motor_pkg'
+[9.855s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.860s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.923s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/crashlab/robot_ws/src/other_motor_pkg' with build type 'ament_cmake'
+[9.925s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/crashlab/robot_ws/src/other_motor_pkg'
+[9.928s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.929s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.183s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/crashlab/robot_ws/src/json_data'
+[14.187s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.187s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.100s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/crashlab/robot_ws/src/nav_bringup'
+[18.103s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.104s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.204s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/crashlab/robot_ws/build/nav_motor_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --build /home/crashlab/robot_ws/build/nav_motor_pkg -- -j4 -l4
+[18.320s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/crashlab/robot_ws/build/other_motor_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --build /home/crashlab/robot_ws/build/other_motor_pkg -- -j4 -l4
+[21.827s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/crashlab/robot_ws/build/other_motor_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --build /home/crashlab/robot_ws/build/other_motor_pkg -- -j4 -l4
+[22.121s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/crashlab/robot_ws/build/other_motor_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --install /home/crashlab/robot_ws/build/other_motor_pkg
+[23.479s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/crashlab/robot_ws/build/other_motor_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --install /home/crashlab/robot_ws/build/other_motor_pkg
+[23.453s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(other_motor_pkg)
+[23.708s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/other_motor_pkg' for CMake module files
+[23.723s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/other_motor_pkg' for CMake config files
+[23.734s] Level 1:colcon.colcon_core.shell:create_environment_hook('other_motor_pkg', 'cmake_prefix_path')
+[23.742s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/hook/cmake_prefix_path.ps1'
+[23.766s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/hook/cmake_prefix_path.dsv'
+[23.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/hook/cmake_prefix_path.sh'
+[23.887s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/other_motor_pkg/bin'
+[23.889s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/other_motor_pkg/lib/pkgconfig/other_motor_pkg.pc'
+[23.916s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/other_motor_pkg/lib/python3.10/site-packages'
+[23.925s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/other_motor_pkg/bin'
+[24.001s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/package.ps1'
+[24.041s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/package.dsv'
+[24.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/package.sh'
+[24.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/package.bash'
+[24.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/package.zsh'
+[24.224s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/crashlab/robot_ws/install/other_motor_pkg/share/colcon-core/packages/other_motor_pkg)
+[24.266s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(other_motor_pkg)
+[24.273s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/other_motor_pkg' for CMake module files
+[24.307s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/other_motor_pkg' for CMake config files
+[24.328s] Level 1:colcon.colcon_core.shell:create_environment_hook('other_motor_pkg', 'cmake_prefix_path')
+[24.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/hook/cmake_prefix_path.ps1'
+[24.370s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/hook/cmake_prefix_path.dsv'
+[24.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/hook/cmake_prefix_path.sh'
+[24.489s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/other_motor_pkg/bin'
+[24.491s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/other_motor_pkg/lib/pkgconfig/other_motor_pkg.pc'
+[24.497s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/other_motor_pkg/lib/python3.10/site-packages'
+[24.501s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/other_motor_pkg/bin'
+[24.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/package.ps1'
+[24.581s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/package.dsv'
+[24.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/package.sh'
+[24.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/package.bash'
+[24.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/package.zsh'
+[24.791s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/crashlab/robot_ws/install/other_motor_pkg/share/colcon-core/packages/other_motor_pkg)
+[24.870s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/crashlab/robot_ws/src/tutorial_ros2_motor' with build type 'ament_cmake'
+[24.871s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/crashlab/robot_ws/src/tutorial_ros2_motor'
+[24.873s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[24.909s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[25.382s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/crashlab/robot_ws/build/nav_motor_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --build /home/crashlab/robot_ws/build/nav_motor_pkg -- -j4 -l4
+[25.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/crashlab/robot_ws/build/nav_motor_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --install /home/crashlab/robot_ws/build/nav_motor_pkg
+[25.637s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/crashlab/robot_ws/build/tutorial_ros2_motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --build /home/crashlab/robot_ws/build/tutorial_ros2_motor -- -j4 -l4
+[26.281s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav_motor_pkg)
+[26.313s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/nav_motor_pkg' for CMake module files
+[26.329s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/crashlab/robot_ws/build/nav_motor_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --install /home/crashlab/robot_ws/build/nav_motor_pkg
+[26.524s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/nav_motor_pkg' for CMake config files
+[26.569s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav_motor_pkg', 'cmake_prefix_path')
+[26.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/hook/cmake_prefix_path.ps1'
+[26.602s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/hook/cmake_prefix_path.dsv'
+[26.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/hook/cmake_prefix_path.sh'
+[26.628s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/nav_motor_pkg/lib'
+[26.640s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/nav_motor_pkg/bin'
+[26.645s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/nav_motor_pkg/lib/pkgconfig/nav_motor_pkg.pc'
+[26.655s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/nav_motor_pkg/lib/python3.10/site-packages'
+[26.690s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/nav_motor_pkg/bin'
+[26.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/package.ps1'
+[26.755s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/package.dsv'
+[26.918s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/package.sh'
+[26.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/package.bash'
+[27.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/package.zsh'
+[27.146s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/crashlab/robot_ws/install/nav_motor_pkg/share/colcon-core/packages/nav_motor_pkg)
+[27.242s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav_motor_pkg)
+[27.264s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/nav_motor_pkg' for CMake module files
+[27.321s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/nav_motor_pkg' for CMake config files
+[27.410s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav_motor_pkg', 'cmake_prefix_path')
+[27.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/hook/cmake_prefix_path.ps1'
+[27.490s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/hook/cmake_prefix_path.dsv'
+[27.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/hook/cmake_prefix_path.sh'
+[27.577s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/nav_motor_pkg/lib'
+[27.578s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/nav_motor_pkg/bin'
+[27.617s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/nav_motor_pkg/lib/pkgconfig/nav_motor_pkg.pc'
+[27.651s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/nav_motor_pkg/lib/python3.10/site-packages'
+[27.653s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/nav_motor_pkg/bin'
+[27.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/package.ps1'
+[27.692s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/package.dsv'
+[27.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/package.sh'
+[27.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/package.bash'
+[27.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/package.zsh'
+[27.839s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/crashlab/robot_ws/install/nav_motor_pkg/share/colcon-core/packages/nav_motor_pkg)
+[27.916s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/crashlab/robot_ws/src/untitled_description' with build type 'ament_cmake'
+[27.931s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/crashlab/robot_ws/src/untitled_description'
+[27.934s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[27.947s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[28.509s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/crashlab/robot_ws/build/untitled_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --build /home/crashlab/robot_ws/build/untitled_description -- -j4 -l4
+[29.800s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/crashlab/robot_ws/build/tutorial_ros2_motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --build /home/crashlab/robot_ws/build/tutorial_ros2_motor -- -j4 -l4
+[29.970s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/crashlab/robot_ws/build/tutorial_ros2_motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --install /home/crashlab/robot_ws/build/tutorial_ros2_motor
+[30.625s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/crashlab/robot_ws/build/untitled_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --build /home/crashlab/robot_ws/build/untitled_description -- -j4 -l4
+[30.826s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/crashlab/robot_ws/build/untitled_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --install /home/crashlab/robot_ws/build/untitled_description
+[31.430s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tutorial_ros2_motor)
+[31.445s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/tutorial_ros2_motor' for CMake module files
+[31.479s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/crashlab/robot_ws/build/tutorial_ros2_motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --install /home/crashlab/robot_ws/build/tutorial_ros2_motor
+[31.570s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/tutorial_ros2_motor' for CMake config files
+[31.654s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_ros2_motor', 'cmake_prefix_path')
+[31.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crashlab/robot_ws/install/tutorial_ros2_motor/share/tutorial_ros2_motor/hook/cmake_prefix_path.ps1'
+[31.845s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/crashlab/robot_ws/install/tutorial_ros2_motor/share/tutorial_ros2_motor/hook/cmake_prefix_path.dsv'
+[32.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crashlab/robot_ws/install/tutorial_ros2_motor/share/tutorial_ros2_motor/hook/cmake_prefix_path.sh'
+[32.233s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/tutorial_ros2_motor/lib'
+[32.263s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/tutorial_ros2_motor/bin'
+[32.264s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/tutorial_ros2_motor/lib/pkgconfig/tutorial_ros2_motor.pc'
+[32.276s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/tutorial_ros2_motor/lib/python3.10/site-packages'
+[32.308s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/tutorial_ros2_motor/bin'
+[32.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/tutorial_ros2_motor/share/tutorial_ros2_motor/package.ps1'
+[32.448s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/crashlab/robot_ws/install/tutorial_ros2_motor/share/tutorial_ros2_motor/package.dsv'
+[32.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/tutorial_ros2_motor/share/tutorial_ros2_motor/package.sh'
+[32.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/tutorial_ros2_motor/share/tutorial_ros2_motor/package.bash'
+[32.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/tutorial_ros2_motor/share/tutorial_ros2_motor/package.zsh'
+[32.872s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/crashlab/robot_ws/install/tutorial_ros2_motor/share/colcon-core/packages/tutorial_ros2_motor)
+[32.917s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tutorial_ros2_motor)
+[32.932s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/tutorial_ros2_motor' for CMake module files
+[32.988s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/tutorial_ros2_motor' for CMake config files
+[33.068s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_ros2_motor', 'cmake_prefix_path')
+[33.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crashlab/robot_ws/install/tutorial_ros2_motor/share/tutorial_ros2_motor/hook/cmake_prefix_path.ps1'
+[33.127s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/crashlab/robot_ws/install/tutorial_ros2_motor/share/tutorial_ros2_motor/hook/cmake_prefix_path.dsv'
+[33.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crashlab/robot_ws/install/tutorial_ros2_motor/share/tutorial_ros2_motor/hook/cmake_prefix_path.sh'
+[33.249s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/tutorial_ros2_motor/lib'
+[33.253s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/tutorial_ros2_motor/bin'
+[33.259s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/tutorial_ros2_motor/lib/pkgconfig/tutorial_ros2_motor.pc'
+[33.262s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/tutorial_ros2_motor/lib/python3.10/site-packages'
+[33.281s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/tutorial_ros2_motor/bin'
+[33.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/tutorial_ros2_motor/share/tutorial_ros2_motor/package.ps1'
+[33.313s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/crashlab/robot_ws/install/tutorial_ros2_motor/share/tutorial_ros2_motor/package.dsv'
+[33.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/tutorial_ros2_motor/share/tutorial_ros2_motor/package.sh'
+[33.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/tutorial_ros2_motor/share/tutorial_ros2_motor/package.bash'
+[33.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/tutorial_ros2_motor/share/tutorial_ros2_motor/package.zsh'
+[33.418s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/crashlab/robot_ws/install/tutorial_ros2_motor/share/colcon-core/packages/tutorial_ros2_motor)
+[33.498s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/crashlab/robot_ws/src/ydlidar_ros2_driver_bs' with build type 'ament_cmake'
+[33.507s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/crashlab/robot_ws/src/ydlidar_ros2_driver_bs'
+[33.511s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[33.513s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[33.874s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(untitled_description)
+[33.878s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/crashlab/robot_ws/build/untitled_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --install /home/crashlab/robot_ws/build/untitled_description
+[33.901s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/untitled_description' for CMake module files
+[33.926s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/untitled_description' for CMake config files
+[33.969s] Level 1:colcon.colcon_core.shell:create_environment_hook('untitled_description', 'cmake_prefix_path')
+[33.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crashlab/robot_ws/install/untitled_description/share/untitled_description/hook/cmake_prefix_path.ps1'
+[34.028s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/crashlab/robot_ws/install/untitled_description/share/untitled_description/hook/cmake_prefix_path.dsv'
+[34.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crashlab/robot_ws/install/untitled_description/share/untitled_description/hook/cmake_prefix_path.sh'
+[34.078s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/untitled_description/bin'
+[34.079s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/untitled_description/lib/pkgconfig/untitled_description.pc'
+[34.083s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/untitled_description/lib/python3.10/site-packages'
+[34.088s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/untitled_description/bin'
+[34.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/untitled_description/share/untitled_description/package.ps1'
+[34.111s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/crashlab/robot_ws/install/untitled_description/share/untitled_description/package.dsv'
+[34.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/untitled_description/share/untitled_description/package.sh'
+[34.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/untitled_description/share/untitled_description/package.bash'
+[34.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/untitled_description/share/untitled_description/package.zsh'
+[34.160s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/crashlab/robot_ws/install/untitled_description/share/colcon-core/packages/untitled_description)
+[34.172s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(untitled_description)
+[34.177s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/untitled_description' for CMake module files
+[34.191s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/untitled_description' for CMake config files
+[34.213s] Level 1:colcon.colcon_core.shell:create_environment_hook('untitled_description', 'cmake_prefix_path')
+[34.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crashlab/robot_ws/install/untitled_description/share/untitled_description/hook/cmake_prefix_path.ps1'
+[34.234s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/crashlab/robot_ws/install/untitled_description/share/untitled_description/hook/cmake_prefix_path.dsv'
+[34.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crashlab/robot_ws/install/untitled_description/share/untitled_description/hook/cmake_prefix_path.sh'
+[34.259s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/untitled_description/bin'
+[34.260s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/untitled_description/lib/pkgconfig/untitled_description.pc'
+[34.265s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/untitled_description/lib/python3.10/site-packages'
+[34.270s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/untitled_description/bin'
+[34.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/untitled_description/share/untitled_description/package.ps1'
+[34.288s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/crashlab/robot_ws/install/untitled_description/share/untitled_description/package.dsv'
+[34.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/untitled_description/share/untitled_description/package.sh'
+[34.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/untitled_description/share/untitled_description/package.bash'
+[34.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/untitled_description/share/untitled_description/package.zsh'
+[34.330s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/crashlab/robot_ws/install/untitled_description/share/colcon-core/packages/untitled_description)
+[34.430s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/crashlab/robot_ws/build/json_data': PYTHONPATH=/home/crashlab/robot_ws/build/json_data/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/crashlab/robot_ws/install/json_data/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/crashlab/robot_ws/build/json_data/build --no-deps symlink_data
+[34.462s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/crashlab/robot_ws/src/YDLidar-SDK'
+[34.473s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[34.475s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[34.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/crashlab/robot_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --build /home/crashlab/robot_ws/build/ydlidar_ros2_driver -- -j4 -l4
+[34.985s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/crashlab/robot_ws/build/nav_bringup': PYTHONPATH=/home/crashlab/robot_ws/build/nav_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/crashlab/robot_ws/install/nav_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/crashlab/robot_ws/build/nav_bringup/build --no-deps symlink_data
+[35.378s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/crashlab/robot_ws/build/ydlidar_sdk': /usr/bin/cmake --build /home/crashlab/robot_ws/build/ydlidar_sdk -- -j4 -l4
+[38.413s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/crashlab/robot_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --build /home/crashlab/robot_ws/build/ydlidar_ros2_driver -- -j4 -l4
+[38.475s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/crashlab/robot_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --install /home/crashlab/robot_ws/build/ydlidar_ros2_driver
+[39.884s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[39.895s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/crashlab/robot_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --install /home/crashlab/robot_ws/build/ydlidar_ros2_driver
+[39.918s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/ydlidar_ros2_driver' for CMake module files
+[39.976s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/ydlidar_ros2_driver' for CMake config files
+[40.008s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[40.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[40.039s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[40.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[40.094s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/ydlidar_ros2_driver/lib'
+[40.096s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/ydlidar_ros2_driver/bin'
+[40.098s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[40.102s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/ydlidar_ros2_driver/lib/python3.10/site-packages'
+[40.107s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/ydlidar_ros2_driver/bin'
+[40.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[40.124s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[40.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[40.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[40.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[40.267s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[40.348s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[40.349s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/ydlidar_ros2_driver' for CMake module files
+[40.427s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/ydlidar_ros2_driver' for CMake config files
+[40.491s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[40.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[40.590s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[40.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[40.712s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/ydlidar_ros2_driver/lib'
+[40.714s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/ydlidar_ros2_driver/bin'
+[40.724s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[40.741s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/ydlidar_ros2_driver/lib/python3.10/site-packages'
+[40.764s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/ydlidar_ros2_driver/bin'
+[40.780s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[40.831s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[40.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[40.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[40.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[40.983s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/crashlab/robot_ws/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[42.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/crashlab/robot_ws/build/ydlidar_sdk' returned '0': /usr/bin/cmake --build /home/crashlab/robot_ws/build/ydlidar_sdk -- -j4 -l4
+[42.268s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/crashlab/robot_ws/build/ydlidar_sdk': /usr/bin/cmake --install /home/crashlab/robot_ws/build/ydlidar_sdk
+[43.885s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_sdk)
+[43.901s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/ydlidar_sdk' for CMake module files
+[43.977s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/ydlidar_sdk' for CMake config files
+[44.011s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_sdk', 'cmake_prefix_path')
+[44.042s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/crashlab/robot_ws/build/ydlidar_sdk' returned '0': /usr/bin/cmake --install /home/crashlab/robot_ws/build/ydlidar_sdk
+[44.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crashlab/robot_ws/install/ydlidar_sdk/share/ydlidar_sdk/hook/cmake_prefix_path.ps1'
+[44.093s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/crashlab/robot_ws/install/ydlidar_sdk/share/ydlidar_sdk/hook/cmake_prefix_path.dsv'
+[44.126s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crashlab/robot_ws/install/ydlidar_sdk/share/ydlidar_sdk/hook/cmake_prefix_path.sh'
+[44.203s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/ydlidar_sdk/lib'
+[44.218s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/ydlidar_sdk/bin'
+[44.220s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_sdk', 'path')
+[44.224s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crashlab/robot_ws/install/ydlidar_sdk/share/ydlidar_sdk/hook/path.ps1'
+[44.234s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/crashlab/robot_ws/install/ydlidar_sdk/share/ydlidar_sdk/hook/path.dsv'
+[44.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crashlab/robot_ws/install/ydlidar_sdk/share/ydlidar_sdk/hook/path.sh'
+[44.269s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/ydlidar_sdk/lib/pkgconfig/ydlidar_sdk.pc'
+[44.275s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/ydlidar_sdk/lib/python3.10/site-packages'
+[44.281s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/ydlidar_sdk/bin'
+[44.285s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_sdk', 'pythonscriptspath')
+[44.290s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crashlab/robot_ws/install/ydlidar_sdk/share/ydlidar_sdk/hook/pythonscriptspath.ps1'
+[44.301s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/crashlab/robot_ws/install/ydlidar_sdk/share/ydlidar_sdk/hook/pythonscriptspath.dsv'
+[44.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crashlab/robot_ws/install/ydlidar_sdk/share/ydlidar_sdk/hook/pythonscriptspath.sh'
+[44.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/ydlidar_sdk/share/ydlidar_sdk/package.ps1'
+[44.368s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/crashlab/robot_ws/install/ydlidar_sdk/share/ydlidar_sdk/package.dsv'
+[44.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/ydlidar_sdk/share/ydlidar_sdk/package.sh'
+[44.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/ydlidar_sdk/share/ydlidar_sdk/package.bash'
+[44.417s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/ydlidar_sdk/share/ydlidar_sdk/package.zsh'
+[44.432s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/crashlab/robot_ws/install/ydlidar_sdk/share/colcon-core/packages/ydlidar_sdk)
+[57.341s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav_bringup', 'pythonpath_develop')
+[57.349s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/crashlab/robot_ws/build/nav_bringup' returned '0': PYTHONPATH=/home/crashlab/robot_ws/build/nav_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/crashlab/robot_ws/install/nav_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/crashlab/robot_ws/build/nav_bringup/build --no-deps symlink_data
+[57.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crashlab/robot_ws/build/nav_bringup/share/nav_bringup/hook/pythonpath_develop.ps1'
+[57.376s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/crashlab/robot_ws/build/nav_bringup/share/nav_bringup/hook/pythonpath_develop.dsv'
+[57.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crashlab/robot_ws/build/nav_bringup/share/nav_bringup/hook/pythonpath_develop.sh'
+[57.393s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/nav_bringup' for CMake module files
+[57.409s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/nav_bringup' for CMake config files
+[57.431s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/nav_bringup/lib'
+[57.432s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/nav_bringup/bin'
+[57.432s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/nav_bringup/lib/pkgconfig/nav_bringup.pc'
+[57.434s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/nav_bringup/lib/python3.10/site-packages'
+[57.450s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav_bringup', 'pythonpath')
+[57.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crashlab/robot_ws/install/nav_bringup/share/nav_bringup/hook/pythonpath.ps1'
+[57.465s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/crashlab/robot_ws/install/nav_bringup/share/nav_bringup/hook/pythonpath.dsv'
+[57.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crashlab/robot_ws/install/nav_bringup/share/nav_bringup/hook/pythonpath.sh'
+[57.517s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/nav_bringup/bin'
+[57.518s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav_bringup)
+[57.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/nav_bringup/share/nav_bringup/package.ps1'
+[57.549s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/crashlab/robot_ws/install/nav_bringup/share/nav_bringup/package.dsv'
+[57.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/nav_bringup/share/nav_bringup/package.sh'
+[57.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/nav_bringup/share/nav_bringup/package.bash'
+[57.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/nav_bringup/share/nav_bringup/package.zsh'
+[57.608s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/crashlab/robot_ws/install/nav_bringup/share/colcon-core/packages/nav_bringup)
+[58.641s] Level 1:colcon.colcon_core.shell:create_environment_hook('json_data', 'pythonpath_develop')
+[58.644s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crashlab/robot_ws/build/json_data/share/json_data/hook/pythonpath_develop.ps1'
+[58.656s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/crashlab/robot_ws/build/json_data' returned '0': PYTHONPATH=/home/crashlab/robot_ws/build/json_data/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/crashlab/robot_ws/install/json_data/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/crashlab/robot_ws/build/json_data/build --no-deps symlink_data
+[58.665s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/crashlab/robot_ws/build/json_data/share/json_data/hook/pythonpath_develop.dsv'
+[58.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crashlab/robot_ws/build/json_data/share/json_data/hook/pythonpath_develop.sh'
+[58.695s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/json_data' for CMake module files
+[58.708s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/json_data' for CMake config files
+[58.722s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/json_data/lib'
+[58.725s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/json_data/bin'
+[58.727s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/json_data/lib/pkgconfig/json_data.pc'
+[58.732s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/json_data/lib/python3.10/site-packages'
+[58.734s] Level 1:colcon.colcon_core.shell:create_environment_hook('json_data', 'pythonpath')
+[58.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crashlab/robot_ws/install/json_data/share/json_data/hook/pythonpath.ps1'
+[58.756s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/crashlab/robot_ws/install/json_data/share/json_data/hook/pythonpath.dsv'
+[58.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/crashlab/robot_ws/install/json_data/share/json_data/hook/pythonpath.sh'
+[58.780s] Level 1:colcon.colcon_core.environment:checking '/home/crashlab/robot_ws/install/json_data/bin'
+[58.785s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(json_data)
+[58.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/json_data/share/json_data/package.ps1'
+[58.812s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/crashlab/robot_ws/install/json_data/share/json_data/package.dsv'
+[58.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/json_data/share/json_data/package.sh'
+[58.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/json_data/share/json_data/package.bash'
+[58.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/crashlab/robot_ws/install/json_data/share/json_data/package.zsh'
+[58.879s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/crashlab/robot_ws/install/json_data/share/colcon-core/packages/json_data)
+[58.887s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[58.898s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[58.912s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[58.915s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[59.237s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[59.239s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[59.241s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[59.595s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[59.599s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/crashlab/robot_ws/install/local_setup.ps1'
+[59.649s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/crashlab/robot_ws/install/_local_setup_util_ps1.py'
+[59.685s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/crashlab/robot_ws/install/setup.ps1'
+[59.790s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/crashlab/robot_ws/install/local_setup.sh'
+[59.836s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/crashlab/robot_ws/install/_local_setup_util_sh.py'
+[59.855s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/crashlab/robot_ws/install/setup.sh'
+[59.899s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/crashlab/robot_ws/install/local_setup.bash'
+[59.920s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/crashlab/robot_ws/install/setup.bash'
+[59.976s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/crashlab/robot_ws/install/local_setup.zsh'
+[60.034s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/crashlab/robot_ws/install/setup.zsh'

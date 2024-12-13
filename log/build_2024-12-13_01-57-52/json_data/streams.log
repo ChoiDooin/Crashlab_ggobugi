@@ -1,0 +1,17 @@
+[20.199s] Invoking command in '/home/crashlab/robot_ws/build/json_data': PYTHONPATH=/home/crashlab/robot_ws/build/json_data/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/crashlab/robot_ws/install/json_data/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/crashlab/robot_ws/build/json_data/build --no-deps symlink_data
+[28.048s] running develop
+[34.245s] running egg_info
+[34.251s] writing json_data.egg-info/PKG-INFO
+[34.260s] writing dependency_links to json_data.egg-info/dependency_links.txt
+[34.280s] writing entry points to json_data.egg-info/entry_points.txt
+[34.298s] writing requirements to json_data.egg-info/requires.txt
+[34.303s] writing top-level names to json_data.egg-info/top_level.txt
+[34.420s] reading manifest file 'json_data.egg-info/SOURCES.txt'
+[34.467s] writing manifest file 'json_data.egg-info/SOURCES.txt'
+[34.530s] running build_ext
+[34.531s] Creating /home/crashlab/robot_ws/install/json_data/lib/python3.10/site-packages/json-data.egg-link (link to .)
+[34.569s] Installing publisher script to /home/crashlab/robot_ws/install/json_data/lib/json_data
+[34.578s] 
+[34.580s] Installed /home/crashlab/robot_ws/build/json_data
+[34.583s] running symlink_data
+[35.100s] Invoked command in '/home/crashlab/robot_ws/build/json_data' returned '0': PYTHONPATH=/home/crashlab/robot_ws/build/json_data/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/crashlab/robot_ws/install/json_data/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/crashlab/robot_ws/build/json_data/build --no-deps symlink_data

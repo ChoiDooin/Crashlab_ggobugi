@@ -1,0 +1,23 @@
+[7.517s] Invoking command in '/home/crashlab/robot_ws/build/other_motor_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --build /home/crashlab/robot_ws/build/other_motor_pkg -- -j4 -l4
+[9.731s] [100%] Built target cap_motor_node
+[10.581s] Invoked command in '/home/crashlab/robot_ws/build/other_motor_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --build /home/crashlab/robot_ws/build/other_motor_pkg -- -j4 -l4
+[11.479s] Invoking command in '/home/crashlab/robot_ws/build/other_motor_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --install /home/crashlab/robot_ws/build/other_motor_pkg
+[12.324s] -- Install configuration: ""
+[12.343s] -- Execute custom install script
+[12.509s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/other_motor_pkg//cap_motor_node
+[12.520s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/other_motor_pkg/share/ament_index/resource_index/package_run_dependencies/other_motor_pkg
+[12.522s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/other_motor_pkg/share/ament_index/resource_index/parent_prefix_path/other_motor_pkg
+[12.567s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/environment/ament_prefix_path.sh
+[12.574s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/environment/ament_prefix_path.dsv
+[12.575s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/environment/path.sh
+[12.585s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/environment/path.dsv
+[12.618s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/local_setup.bash
+[12.626s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/local_setup.sh
+[12.628s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/local_setup.zsh
+[12.629s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/local_setup.dsv
+[12.631s] -- Symlinking: /home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/package.dsv
+[12.684s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/other_motor_pkg/share/ament_index/resource_index/packages/other_motor_pkg
+[12.689s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/cmake/other_motor_pkgConfig.cmake
+[12.697s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/cmake/other_motor_pkgConfig-version.cmake
+[12.709s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/package.xml
+[13.109s] Invoked command in '/home/crashlab/robot_ws/build/other_motor_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --install /home/crashlab/robot_ws/build/other_motor_pkg

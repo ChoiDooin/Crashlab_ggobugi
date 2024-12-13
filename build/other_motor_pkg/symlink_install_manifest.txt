@@ -1,0 +1,16 @@
+/home/crashlab/robot_ws/install/other_motor_pkg//cap_motor_node
+/home/crashlab/robot_ws/install/other_motor_pkg/share/ament_index/resource_index/package_run_dependencies/other_motor_pkg
+/home/crashlab/robot_ws/install/other_motor_pkg/share/ament_index/resource_index/parent_prefix_path/other_motor_pkg
+/home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/environment/ament_prefix_path.sh
+/home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/environment/ament_prefix_path.dsv
+/home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/environment/path.sh
+/home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/environment/path.dsv
+/home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/local_setup.bash
+/home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/local_setup.sh
+/home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/local_setup.zsh
+/home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/local_setup.dsv
+/home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/package.dsv
+/home/crashlab/robot_ws/install/other_motor_pkg/share/ament_index/resource_index/packages/other_motor_pkg
+/home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/cmake/other_motor_pkgConfig.cmake
+/home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/cmake/other_motor_pkgConfig-version.cmake
+/home/crashlab/robot_ws/install/other_motor_pkg/share/other_motor_pkg/package.xml

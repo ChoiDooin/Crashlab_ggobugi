@@ -1,0 +1,79 @@
+[0.100s] Invoking command in '/home/crashlab/robot_ws/build/untitled_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --build /home/crashlab/robot_ws/build/untitled_description -- -j4 -l4
+[0.275s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.215s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.338s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[1.343s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[1.677s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.696s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.745s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.824s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.916s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.102s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[2.113s] -- Found rviz2: 11.2.14 (/opt/ros/humble/share/rviz2/cmake)
+[2.116s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[2.336s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.356s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.607s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.621s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.089s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.472s] -- joint_state_publisher not found
+[5.702s] -- joint_state_publisher_gui not found
+[5.706s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.082s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.148s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.156s] -- Added test 'lint_cmake' to check CMake code style
+[6.162s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.196s] -- Added test 'xmllint' to check XML markup files
+[6.202s] -- Configuring done
+[6.253s] -- Generating done
+[6.268s] -- Build files have been written to: /home/crashlab/robot_ws/build/untitled_description
+[6.397s] Invoked command in '/home/crashlab/robot_ws/build/untitled_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --build /home/crashlab/robot_ws/build/untitled_description -- -j4 -l4
+[6.408s] Invoking command in '/home/crashlab/robot_ws/build/untitled_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --install /home/crashlab/robot_ws/build/untitled_description
+[6.445s] -- Install configuration: ""
+[6.448s] -- Execute custom install script
+[6.450s] -- Symlinking: /home/crashlab/robot_ws/install/untitled_description/lib/untitled_description/zone_publisher.py
+[6.490s] -- Symlinking: /home/crashlab/robot_ws/install/untitled_description/lib/untitled_description/zone_subscriber.py
+[6.530s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/launch/display.launch.py
+[6.531s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/launch/dynamic_transform_publisher.py
+[6.532s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/launch/gazebo.launch.py
+[6.533s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/launch/navigation.launch.py
+[6.534s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/launch/rviz.launch.py
+[6.535s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/launch/sim.launch.py
+[6.537s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/meshes/Caster_Wheel_1.stl
+[6.538s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/meshes/Caster_Wheel_out_1.stl
+[6.539s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/meshes/Left_Wheel_1.stl
+[6.540s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/meshes/Right_Wheel_1.stl
+[6.541s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/meshes/base_link.stl
+[6.543s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/urdf/gazebo.xacro
+[6.543s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/urdf/lidar.xacro
+[6.544s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/urdf/materials.xacro
+[6.545s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/urdf/untitled.gazebo
+[6.546s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/urdf/untitled.trans
+[6.547s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/urdf/untitled.xacro
+[6.549s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/config/crash.rviz
+[6.550s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/config/display.rviz
+[6.550s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/config/mapper_params_online_async.yaml
+[6.552s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/config/rjrj.rviz
+[6.552s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/config/rotate_and_go.yaml
+[6.553s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/config/twist_mux.yaml
+[6.555s] -- Symlinking: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/world/home.world
+[6.593s] -- Symlinking: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/world/house.world
+[6.629s] -- Symlinking: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/world/robot.world
+[6.668s] -- Symlinking: /home/crashlab/robot_ws/install/untitled_description/lib/python3.8/site-packages/untitled_description/__init__.py
+[6.707s] -- Symlinking: /home/crashlab/robot_ws/install/untitled_description/lib/python3.8/site-packages/untitled_description/task_navigator.py
+[6.746s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/ament_index/resource_index/package_run_dependencies/untitled_description
+[6.747s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/ament_index/resource_index/parent_prefix_path/untitled_description
+[6.749s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/environment/ament_prefix_path.sh
+[6.750s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/environment/ament_prefix_path.dsv
+[6.752s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/environment/path.sh
+[6.753s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/environment/path.dsv
+[6.754s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/local_setup.bash
+[6.755s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/local_setup.sh
+[6.756s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/local_setup.zsh
+[6.758s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/local_setup.dsv
+[6.758s] -- Symlinking: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/package.dsv
+[6.798s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/ament_index/resource_index/packages/untitled_description
+[6.799s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/cmake/untitled_descriptionConfig.cmake
+[6.800s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/cmake/untitled_descriptionConfig-version.cmake
+[6.801s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/untitled_description/share/untitled_description/package.xml
+[6.811s] Invoked command in '/home/crashlab/robot_ws/build/untitled_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --install /home/crashlab/robot_ws/build/untitled_description

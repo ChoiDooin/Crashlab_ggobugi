@@ -1,0 +1,18 @@
+[2.877s] Invoking command in '/home/crashlab/robot_ws/build/other_motor_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --build /home/crashlab/robot_ws/build/other_motor_pkg -- -j4 -l4
+[3.140s] [35m[1mConsolidate compiler generated dependencies of target cap_motor_node[0m
+[3.289s] [ 50%] [32mBuilding CXX object CMakeFiles/cap_motor_node.dir/src/cap_motor_node.cpp.o[0m
+[42.544s] [100%] [32m[1mLinking CXX executable cap_motor_node[0m
+[44.393s] /usr/bin/ld: CMakeFiles/cap_motor_node.dir/src/cap_motor_node.cpp.o: in function `CapMotorNode::TimerCallback()':
+[44.394s] cap_motor_node.cpp:(.text._ZN12CapMotorNode13TimerCallbackEv[_ZN12CapMotorNode13TimerCallbackEv]+0x64): undefined reference to `gpio_write'
+[44.394s] /usr/bin/ld: cap_motor_node.cpp:(.text._ZN12CapMotorNode13TimerCallbackEv[_ZN12CapMotorNode13TimerCallbackEv]+0xac): undefined reference to `gpio_write'
+[44.397s] /usr/bin/ld: CMakeFiles/cap_motor_node.dir/src/cap_motor_node.cpp.o: in function `CapMotorNode::initMotor()':
+[44.398s] cap_motor_node.cpp:(.text._ZN12CapMotorNode9initMotorEv[_ZN12CapMotorNode9initMotorEv]+0x14): undefined reference to `pigpio_start'
+[44.398s] /usr/bin/ld: cap_motor_node.cpp:(.text._ZN12CapMotorNode9initMotorEv[_ZN12CapMotorNode9initMotorEv]+0x78): undefined reference to `set_mode'
+[44.400s] /usr/bin/ld: cap_motor_node.cpp:(.text._ZN12CapMotorNode9initMotorEv[_ZN12CapMotorNode9initMotorEv]+0x90): undefined reference to `set_mode'
+[44.401s] /usr/bin/ld: cap_motor_node.cpp:(.text._ZN12CapMotorNode9initMotorEv[_ZN12CapMotorNode9initMotorEv]+0xa8): undefined reference to `gpio_write'
+[44.402s] /usr/bin/ld: cap_motor_node.cpp:(.text._ZN12CapMotorNode9initMotorEv[_ZN12CapMotorNode9initMotorEv]+0xc0): undefined reference to `gpio_write'
+[44.602s] collect2: error: ld returned 1 exit status
+[44.608s] gmake[2]: *** [CMakeFiles/cap_motor_node.dir/build.make:159: cap_motor_node] Error 1
+[44.609s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cap_motor_node.dir/all] Error 2
+[44.611s] gmake: *** [Makefile:146: all] Error 2
+[44.620s] Invoked command in '/home/crashlab/robot_ws/build/other_motor_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --build /home/crashlab/robot_ws/build/other_motor_pkg -- -j4 -l4

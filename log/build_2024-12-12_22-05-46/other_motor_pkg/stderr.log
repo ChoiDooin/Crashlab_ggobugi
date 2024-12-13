@@ -1,0 +1,7 @@
+[01m[K/home/crashlab/robot_ws/src/other_motor_pkg/src/cap_motor_node.cpp:[m[K In member function ‘[01m[Kvoid CapMotorNode::TimerCallback()[m[K’:
+[01m[K/home/crashlab/robot_ws/src/other_motor_pkg/src/cap_motor_node.cpp:51:33:[m[K [01;31m[Kerror: [m[K‘[01m[Ksteps[m[K’ was not declared in this scope
+   51 |             for (int i = 0; i < [01;31m[Ksteps[m[K; i++)
+      |                                 [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/cap_motor_node.dir/build.make:76: CMakeFiles/cap_motor_node.dir/src/cap_motor_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cap_motor_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

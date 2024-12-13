@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-accba564129f962798a7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "nav_motor_pkg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_run_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_run_node-d9ed4774cc22ae461a19.json",
+					"name" : "motor_run_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_util::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_util-21817bd4e24d3502113a.json",
+					"name" : "motor_util",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav_motor_pkg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav_motor_pkg_uninstall-83029e28a45f599c36f2.json",
+					"name" : "nav_motor_pkg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pid_gain_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pid_gain_publisher-24182adef3e6a3a79985.json",
+					"name" : "pid_gain_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_running_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_running_node-a9341e7de2211046f2fd.json",
+					"name" : "test_running_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-28f6a87d29b9e1d64866.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/crashlab/robot_ws/build/nav_motor_pkg",
+		"source" : "/home/crashlab/robot_ws/src/nav_motor_pkg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

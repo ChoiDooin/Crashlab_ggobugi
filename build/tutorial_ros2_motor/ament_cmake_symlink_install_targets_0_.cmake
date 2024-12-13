@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/crashlab/robot_ws/build/tutorial_ros2_motor/motor_node" "/home/crashlab/robot_ws/build/tutorial_ros2_motor/teleop_node" "TARGETS" "motor_node" "teleop_node" "DESTINATION" "lib/tutorial_ros2_motor")

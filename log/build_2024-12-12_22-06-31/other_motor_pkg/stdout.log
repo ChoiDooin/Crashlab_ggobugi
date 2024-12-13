@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target cap_motor_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cap_motor_node.dir/src/cap_motor_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable cap_motor_node[0m

@@ -1,0 +1,180 @@
+<?xml version="1.0" ?>
+<robot name="untitled" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find untitled_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find untitled_description)/urdf/untitled.trans" />
+<xacro:include filename="$(find untitled_description)/urdf/untitled.gazebo" />
+
+    <material name="red">
+        <color rgba="1 0 0 1"/>
+    </material>
+
+<link name="base_link">
+  <inertial>
+    <origin xyz="0.016327859494768997 -3.84419265551956e-06 0.028206108168890177" rpy="0 0 0"/>
+    <mass value="41.192056226480226"/>
+    <inertia ixx="0.964472" iyy="0.728351" izz="0.995113" ixy="-2.8e-05" iyz="-5e-06" ixz="0.008696"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find untitled_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="Steel-Satin"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find untitled_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="base_footprint_joint" type="fixed">
+  <parent link="base_footprint"/>
+  <child link="base_link"/>
+  <origin xyz="0 0 0" rpy="0 0 0"/>
+</joint>
+
+<link name="base_footprint">
+</link>
+
+<link name="Right_Wheel_1">
+  <inertial>
+    <origin xyz="2.8520354061756237e-07 0.015599999999999975 0.0" rpy="0 0 0"/>
+    <mass value="2.2656784023510617"/>
+    <inertia ixx="0.001857" iyy="0.003387" izz="0.001857" ixy="-0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.125629 -0.1931 0.0435" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find untitled_description)/meshes/Right_Wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="Steel-Satin"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.125629 -0.1931 0.0435" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find untitled_description)/meshes/Right_Wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Left_Wheel_1">
+  <inertial>
+    <origin xyz="2.8520354061756237e-07 -0.015599999999999975 0.0" rpy="0 0 0"/>
+    <mass value="2.2656784023510617"/>
+    <inertia ixx="0.001857" iyy="0.003387" izz="0.001857" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.125629 0.1931 0.0435" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find untitled_description)/meshes/Left_Wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="Steel-Satin"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.125629 0.1931 0.0435" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find untitled_description)/meshes/Left_Wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Caster_Wheel_1">
+  <inertial>
+    <origin xyz="-2.7755575615628914e-17 0.014000000000000009 -2.7755575615628914e-17" rpy="0 0 0"/>
+    <mass value="0.9710466542705191"/>
+    <inertia ixx="0.000405" iyy="0.000683" izz="0.000405" ixy="-0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.182364 0.015 0.0625" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find untitled_description)/meshes/Caster_Wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="Steel-Satin"/>
+  </visual>
+  <collision>
+    <origin xyz="0.182364 0.015 0.0625" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find untitled_description)/meshes/Caster_Wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Caster_Wheel_out_1">
+  <inertial>
+    <origin xyz="-0.015502855015345512 6.562111789501154e-09 -0.0451876324790609" rpy="0 0 0"/>
+    <mass value="0.48651791272438033"/>
+    <inertia ixx="0.000437" iyy="0.000504" izz="0.000284" ixy="0.0" iyz="0.0" ixz="-0.000111"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.159 0.001 0.003" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find untitled_description)/meshes/Caster_Wheel_out_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="Steel-Satin"/>
+  </visual>
+  <collision>
+    <origin xyz="0.159 0.001 0.003" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find untitled_description)/meshes/Caster_Wheel_out_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="Revolute 3" type="continuous">
+  <origin xyz="0.125629 0.1931 -0.0435" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="Right_Wheel_1"/>
+  <axis xyz="0.0 1.0 0.0"/>
+</joint>
+
+<joint name="Revolute 4" type="continuous">
+  <origin xyz="0.125629 -0.1931 -0.0435" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="Left_Wheel_1"/>
+  <axis xyz="0.0 1.0 0.0"/>
+</joint>
+
+<joint name="Revolute 5" type="continuous">
+  <origin xyz="-0.023364 -0.014 -0.0595" rpy="0 0 0"/>
+  <parent link="Caster_Wheel_out_1"/>
+  <child link="Caster_Wheel_1"/>
+  <axis xyz="0.0 1.0 0.0"/>
+</joint>
+
+<joint name="Revolute 6" type="continuous">
+  <origin xyz="-0.159 -0.001 -0.003" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="Caster_Wheel_out_1"/>
+  <axis xyz="0.0 0.0 -1.0"/>
+</joint>
+
+    <!-- LiDAR -->
+    <joint name="laser_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="laser_frame"/>
+        <origin xyz="0 0 0.2" rpy="0 0 0"/>
+    </joint>
+
+    <link name="laser_frame">
+        <visual>
+            <geometry>
+                <cylinder radius="0.03" length="0.03"/>
+            </geometry>
+            <material name="red"/>
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="0.03" length="0.03"/>
+            </geometry>
+        </collision>
+    </link>
+ <!-- YDLidar 장치 정보 -->
+    <xacro:property name="lidar_serial_port" value="/dev/ttyUSB0"/>
+    <xacro:property name="lidar_frame_id" value="laser_frame"/>
+<!--<xacro:include filename="gazebo.xacro"/>
+<xacro:include filename="lidar.xacro"/>-->
+</robot>
+

@@ -1,0 +1,16 @@
+[5.908s] Invoking command in '/home/crashlab/robot_ws/build/nav_bringup': PYTHONPATH=/home/crashlab/robot_ws/build/nav_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/crashlab/robot_ws/install/nav_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/crashlab/robot_ws/build/nav_bringup/build --no-deps symlink_data
+[7.710s] running develop
+[9.416s] running egg_info
+[9.429s] writing nav_bringup.egg-info/PKG-INFO
+[9.438s] writing dependency_links to nav_bringup.egg-info/dependency_links.txt
+[9.439s] writing entry points to nav_bringup.egg-info/entry_points.txt
+[9.440s] writing requirements to nav_bringup.egg-info/requires.txt
+[9.443s] writing top-level names to nav_bringup.egg-info/top_level.txt
+[9.468s] reading manifest file 'nav_bringup.egg-info/SOURCES.txt'
+[9.476s] writing manifest file 'nav_bringup.egg-info/SOURCES.txt'
+[9.506s] running build_ext
+[9.507s] Creating /home/crashlab/robot_ws/install/nav_bringup/lib/python3.10/site-packages/nav-bringup.egg-link (link to .)
+[9.527s] 
+[9.528s] Installed /home/crashlab/robot_ws/build/nav_bringup
+[9.531s] running symlink_data
+[10.132s] Invoked command in '/home/crashlab/robot_ws/build/nav_bringup' returned '0': PYTHONPATH=/home/crashlab/robot_ws/build/nav_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/crashlab/robot_ws/install/nav_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/crashlab/robot_ws/build/nav_bringup/build --no-deps symlink_data

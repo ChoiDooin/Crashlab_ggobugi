@@ -1,0 +1,11 @@
+[2.921s] Invoking command in '/home/crashlab/robot_ws/build/other_motor_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --build /home/crashlab/robot_ws/build/other_motor_pkg -- -j4 -l4
+[3.166s] [35m[1mConsolidate compiler generated dependencies of target cap_motor_node[0m
+[3.283s] [ 50%] [32mBuilding CXX object CMakeFiles/cap_motor_node.dir/src/cap_motor_node.cpp.o[0m
+[16.375s] [01m[K/home/crashlab/robot_ws/src/other_motor_pkg/src/cap_motor_node.cpp:[m[K In member function ‘[01m[Kvoid CapMotorNode::TimerCallback()[m[K’:
+[16.376s] [01m[K/home/crashlab/robot_ws/src/other_motor_pkg/src/cap_motor_node.cpp:51:33:[m[K [01;31m[Kerror: [m[K‘[01m[Ksteps[m[K’ was not declared in this scope
+[16.376s]    51 |             for (int i = 0; i < [01;31m[Ksteps[m[K; i++)
+[16.377s]       |                                 [01;31m[K^~~~~[m[K
+[25.627s] gmake[2]: *** [CMakeFiles/cap_motor_node.dir/build.make:76: CMakeFiles/cap_motor_node.dir/src/cap_motor_node.cpp.o] Error 1
+[25.628s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cap_motor_node.dir/all] Error 2
+[25.629s] gmake: *** [Makefile:146: all] Error 2
+[25.637s] Invoked command in '/home/crashlab/robot_ws/build/other_motor_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/opt/ros/humble /usr/bin/cmake --build /home/crashlab/robot_ws/build/other_motor_pkg -- -j4 -l4

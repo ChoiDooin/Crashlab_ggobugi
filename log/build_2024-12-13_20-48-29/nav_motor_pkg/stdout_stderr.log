@@ -1,0 +1,94 @@
+[35m[1mConsolidate compiler generated dependencies of target motor_util[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/motor_util.dir/src/motor_util.cpp.o[0m
+[ 37%] Built target pid_gain_publisher
+[01m[K/home/crashlab/robot_ws/src/nav_motor_pkg/src/motor_util.cpp:[m[K In function ‘[01m[Kint LimitPwm(int&)[m[K’:
+[01m[K/home/crashlab/robot_ws/src/nav_motor_pkg/src/motor_util.cpp:286:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  286 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/crashlab/robot_ws/src/nav_motor_pkg/src/motor_util.cpp:[m[K In function ‘[01m[Kvoid calculateWheelPWM(double, double, double&, double&)[m[K’:
+[01m[K/home/crashlab/robot_ws/src/nav_motor_pkg/src/motor_util.cpp:434:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmax_velocity[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  434 |     const double [01;35m[Kmax_velocity[m[K = 10; // 최대 바퀴 속도 (m/s) (예: 1m/s)
+      |                  [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/crashlab/robot_ws/src/nav_motor_pkg/src/motor_util.cpp:[m[K In function ‘[01m[Kvoid MotorController(int, bool, int)[m[K’:
+[01m[K/home/crashlab/robot_ws/src/nav_motor_pkg/src/motor_util.cpp:291:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpinum[m[K’ is used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wuninitialized-Wuninitialized]8;;[m[K]
+  291 |     int [01;35m[Kpinum[m[K = pinum;
+      |         [01;35m[K^~~~~[m[K
+[ 50%] [32m[1mLinking CXX static library libmotor_util.a[0m
+[ 50%] Built target motor_util
+[35m[1mConsolidate compiler generated dependencies of target motor_run_node[0m
+[ 62%] [32m[1mLinking CXX executable test_running_node[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/motor_run_node.dir/src/motor_run.cpp.o[0m
+[ 87%] Built target test_running_node
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/crashlab/robot_ws/src/nav_motor_pkg/include/nav_motor_pkg/motor_node.hpp:10[m[K,
+                 from [01m[K/home/crashlab/robot_ws/src/nav_motor_pkg/src/motor_run.cpp:1[m[K:
+[01m[K/home/crashlab/robot_ws/src/nav_motor_pkg/src/motor_run.cpp:[m[K In member function ‘[01m[Kvoid MotorRunNode::TimerCallback()[m[K’:
+[01m[K/home/crashlab/robot_ws/src/nav_motor_pkg/src/motor_run.cpp:126:53:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 5 has type ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  126 |         RCLCPP_INFO(rclcpp::get_logger("Motor run"),[01;35m[K"Target PWM 1 : %f   ||   Target PWM 2 : %f"[m[K,[32m[Kstatic_cast<int>(target_pwm1)[m[K, static_cast<int>(target_pwm2));
+      |                                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                                  [32m[K|[m[K
+      |                                                                                                  [32m[Kint[m[K
+[01m[K/home/crashlab/robot_ws/src/nav_motor_pkg/src/motor_run.cpp:126:70:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  126 |  RCLCPP_INFO(rclcpp::get_logger("Motor run"),"Target PWM 1 : [01;36m[K%f[m[K   ||   Target PWM 2 : %f",static_cast<int>(target_pwm1), static_cast<int>(target_pwm2));
+      |                                                              [01;36m[K~^[m[K
+      |                                                               [01;36m[K|[m[K
+      |                                                               [01;36m[Kdouble[m[K
+      |                                                              [32m[K%d[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/crashlab/robot_ws/src/nav_motor_pkg/include/nav_motor_pkg/motor_node.hpp:10[m[K,
+                 from [01m[K/home/crashlab/robot_ws/src/nav_motor_pkg/src/motor_run.cpp:1[m[K:
+[01m[K/home/crashlab/robot_ws/src/nav_motor_pkg/src/motor_run.cpp:126:53:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 6 has type ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  126 |         RCLCPP_INFO(rclcpp::get_logger("Motor run"),[01;35m[K"Target PWM 1 : %f   ||   Target PWM 2 : %f"[m[K,static_cast<int>(target_pwm1), [32m[Kstatic_cast<int>(target_pwm2)[m[K);
+      |                                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                                                                 [32m[K|[m[K
+      |                                                                                                                                 [32m[Kint[m[K
+[01m[K/home/crashlab/robot_ws/src/nav_motor_pkg/src/motor_run.cpp:126:95:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  126 | logger("Motor run"),"Target PWM 1 : %f   ||   Target PWM 2 : [01;36m[K%f[m[K",static_cast<int>(target_pwm1), static_cast<int>(target_pwm2));
+      |                                                              [01;36m[K~^[m[K
+      |                                                               [01;36m[K|[m[K
+      |                                                               [01;36m[Kdouble[m[K
+      |                                                              [32m[K%d[m[K
+[100%] [32m[1mLinking CXX executable motor_run_node[0m
+[100%] Built target motor_run_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg//config/motor_parameters.txt
+-- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/lib/nav_motor_pkg/libmotor_util.a
+-- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/lib/nav_motor_pkg/motor_run_node
+-- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/lib/nav_motor_pkg/test_running_node
+-- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/lib/nav_motor_pkg/pid_gain_publisher
+-- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/share/ament_index/resource_index/package_run_dependencies/nav_motor_pkg
+-- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/share/ament_index/resource_index/parent_prefix_path/nav_motor_pkg
+-- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/environment/path.sh
+-- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/environment/path.dsv
+-- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/local_setup.bash
+-- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/local_setup.sh
+-- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/local_setup.zsh
+-- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/local_setup.dsv
+-- Symlinking: /home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/package.dsv
+-- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/share/ament_index/resource_index/packages/nav_motor_pkg
+-- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/cmake/nav_motor_pkgConfig.cmake
+-- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/cmake/nav_motor_pkgConfig-version.cmake
+-- Up-to-date symlink: /home/crashlab/robot_ws/install/nav_motor_pkg/share/nav_motor_pkg/package.xml

@@ -1,0 +1,2 @@
+source;share/tutorial_ros2_motor/environment/ament_prefix_path.sh
+source;share/tutorial_ros2_motor/environment/path.sh
