@@ -50,7 +50,7 @@ int motor2_encB = 24;
 // PWM 관련 전역 변수 정의
 int pwm_frequency = 40000;
 int pwm_range = 200;
-int pwm_limit = 100;
+int pwm_limit = 75;
 
 // Interrupt 콜백 함수 선언
 void Interrupt1A(int pi, unsigned int gpio, unsigned int level, uint32_t tick);
@@ -142,7 +142,7 @@ int InitMotors() //
     set_pull_up_down(pinum, motor1_encB, PI_PUD_DOWN);
     set_pull_up_down(pinum, motor2_encA, PI_PUD_DOWN);
     set_pull_up_down(pinum, motor2_encB, PI_PUD_DOWN);
-    
+
     return 0;
 }
 
@@ -369,22 +369,34 @@ void InfoMotors() // 모터 정보 출력 함수
     printf("\n");
 }
 
+
 void PidController(double p_gain1, double i_gain1, double d_gain1, double errorGap1, double &prevError1, double &sumError1, double target_rpm1, double current_rpm1, double time_interval, double &filteredPidControl1,
-                   double p_gain2, double i_gain2, double d_gain2, double errorGap2, double &prevError2, double &sumError2, double target_rpm2, double current_rpm2, double &filteredPidControl2) // PID 제어 함수
+                    double p_gain2, double i_gain2, double d_gain2, double errorGap2, double &prevError2, double &sumError2, double target_rpm2, double current_rpm2, double &filteredPidControl2, double max_spike_threshold)
 {
-    RCLCPP_INFO(rclcpp::get_logger("pidCotroller"), "target_rpm1:%10.0f   ||   target_rpm2:%10.0f", target_rpm1, target_rpm2);
-    RCLCPP_INFO(rclcpp::get_logger("pidCotroller"), "current_rpm1:%10.0f   ||   current_rpm2:%10.0f", current_rpm1, current_rpm2);
+    static double prev_rpm1 = 0.0;
+    static double prev_rpm2 = 0.0;
 
-    // Error 계산
-    errorGap1 = target_rpm1 - current_rpm1;
-    errorGap2 = target_rpm2 - current_rpm2;
-    RCLCPP_INFO(rclcpp::get_logger("pidCotroller"), "ErrorGap1:%10.0f   ||   ErrorGap2:%10.0f", errorGap1, errorGap2);
+    // 스파이크 필터
+    
+    if (std::abs(current_rpm1 - prev_rpm1) > max_spike_threshold)
+    {
+        current_rpm1 = prev_rpm1; // 튀는 값 무시
+    }
+    if (std::abs(current_rpm2 - prev_rpm2) > max_spike_threshold)
+    {
+        current_rpm2 = prev_rpm2;
+    }
 
-    // 에러 적분값 누적
-    sumError1 += errorGap1 * time_interval;
-    sumError2 += errorGap2 * time_interval;
+    // 로우 패스 필터
+    double alpha_rpm = 0.1;
+    current_rpm1 = alpha_rpm * current_rpm1 + (1.0 - alpha_rpm) * prev_rpm1;
+    current_rpm2 = alpha_rpm * current_rpm2 + (1.0 - alpha_rpm) * prev_rpm2;
+    
+    // 작게 튀는 값 무시
+    const double deadband = 1.0;
+    errorGap1 = std::abs(target_rpm1 - current_rpm1) < deadband ? 0.0 : target_rpm1 - current_rpm1;
+    errorGap2 = std::abs(target_rpm2 - current_rpm2) < deadband ? 0.0 : target_rpm2 - current_rpm2;
 
-    // P, I, D 제어 계산
     double pControl1 = p_gain1 * errorGap1;
     double iControl1 = i_gain1 * sumError1;
     double dControl1 = d_gain1 * (errorGap1 - prevError1) / time_interval;
@@ -393,24 +405,21 @@ void PidController(double p_gain1, double i_gain1, double d_gain1, double errorG
     double iControl2 = i_gain2 * sumError2;
     double dControl2 = d_gain2 * (errorGap2 - prevError2) / time_interval;
 
-    RCLCPP_INFO(rclcpp::get_logger("pidCotroller"), "pControl1:%10.0f   ||   pControl2:%10.0f", pControl1, pControl2);
-    RCLCPP_INFO(rclcpp::get_logger("pidCotroller"), "iControl1:%10.0f   ||   iControl2:%10.0f", iControl1, iControl2);
-    RCLCPP_INFO(rclcpp::get_logger("pidCotroller"), "dControl1:%10.0f   ||   dControl2:%10.0f", dControl1, dControl2);
+    filteredPidControl1 = pControl1 + iControl1 + dControl1;
+    filteredPidControl2 = pControl2 + iControl2 + dControl2;
 
-    // PID 합산
-    double pidControl1 = pControl1 + iControl1 + dControl1;
-    double pidControl2 = pControl2 + iControl2 + dControl2;
-    RCLCPP_INFO(rclcpp::get_logger("pidCotroller"), "pidControl1:%10.0f   ||   pidControl2:%10.0f", pidControl1, pidControl2);
+    // // PID 출력 필터링 
+    // double alpha = 0.3;
+    // filteredPidControl1 = alpha * pidControl1 + (1.0 - alpha) * filteredPidControl1;
+    // filteredPidControl2 = alpha * pidControl2 + (1.0 - alpha) * filteredPidControl2;
 
-    // PID 제어값 필터링 (저역 통과 필터 적용 가능)
-    double alpha = 0.4; // 필터 강도 (0.0 ~ 1.0 사이 값)
-    filteredPidControl1 = alpha * pidControl1 + (1.0 - alpha) * filteredPidControl1;
-    filteredPidControl2 = alpha * pidControl2 + (1.0 - alpha) * filteredPidControl2;
-
-    // 이전 에러값 업데이트
+    // 이전 값 업데이트
     prevError1 = errorGap1;
     prevError2 = errorGap2;
+    prev_rpm1 = current_rpm1;
+    prev_rpm2 = current_rpm2;
 }
+
 
 void CalculateOdom(double dt, double &delta_linear, double &delta_angular) // 오도메트리 계산 함수
 {

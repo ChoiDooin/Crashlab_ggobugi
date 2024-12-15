@@ -1,6 +1,6 @@
 pwm_range = 200
 pwm_frequency = 40000
-pwm_limit = 100
+pwm_limit = 75
 control_cycle = 10
 acceleration_ratio = 25
 wheel_radius = 0.0575

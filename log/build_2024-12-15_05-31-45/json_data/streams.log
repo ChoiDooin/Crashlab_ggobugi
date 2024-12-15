@@ -1,0 +1,24 @@
+[22.184s] Invoking command in '/home/crashlab/robot_ws/build/json_data': PYTHONPATH=/home/crashlab/robot_ws/build/json_data/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/crashlab/robot_ws/install/json_data/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/crashlab/robot_ws/build/json_data/build --no-deps symlink_data
+[35.351s] Traceback (most recent call last):
+[35.360s]   File "/home/crashlab/robot_ws/build/json_data/setup.py", line 1, in <module>
+[35.371s]     from setuptools import find_packages, setup
+[35.394s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+[35.400s]     import setuptools.version
+[35.436s]   File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+[35.468s]     import pkg_resources
+[35.478s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3267, in <module>
+[35.534s]     def _initialize_master_working_set():
+[35.537s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3241, in _call_aside
+[35.578s]     f(*args, **kwargs)
+[35.584s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3279, in _initialize_master_working_set
+[35.652s]     working_set = WorkingSet._build_master()
+[35.669s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 564, in _build_master
+[35.701s]     ws = cls()
+[35.721s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 557, in __init__
+[35.759s]     self.add_entry(entry)
+[35.763s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 614, in add_entry
+[35.796s]     self.add(dist, entry, False)
+[35.804s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 700, in add
+[35.857s]     keys.append(dist.key)
+[35.865s] KeyboardInterrupt
+[36.391s] Invoked command in '/home/crashlab/robot_ws/build/json_data' returned '-2': PYTHONPATH=/home/crashlab/robot_ws/build/json_data/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/crashlab/robot_ws/install/json_data/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/crashlab/robot_ws/build/json_data/build --no-deps symlink_data

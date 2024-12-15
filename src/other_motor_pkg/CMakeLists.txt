@@ -10,12 +10,15 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 
+
 add_executable(cap_motor_node src/cap_motor_node.cpp)
 ament_target_dependencies(cap_motor_node
   rclcpp
   std_msgs
   ament_index_cpp
 )
+target_link_libraries(cap_motor_node pigpiod_if2)
+
 install (TARGETS
   cap_motor_node
   )

@@ -1,0 +1,18 @@
+[50.160s] Invoking command in '/home/crashlab/robot_ws/build/ggobuk_bringup': PYTHONPATH=/home/crashlab/robot_ws/build/ggobuk_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/crashlab/robot_ws/install/ggobuk_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/crashlab/robot_ws/build/ggobuk_bringup/build --no-deps symlink_data
+[65.913s] running develop
+[76.839s] running egg_info
+[76.884s] writing ggobuk_bringup.egg-info/PKG-INFO
+[76.889s] writing dependency_links to ggobuk_bringup.egg-info/dependency_links.txt
+[76.906s] writing entry points to ggobuk_bringup.egg-info/entry_points.txt
+[76.961s] writing requirements to ggobuk_bringup.egg-info/requires.txt
+[76.974s] writing top-level names to ggobuk_bringup.egg-info/top_level.txt
+[76.978s] reading manifest file 'ggobuk_bringup.egg-info/SOURCES.txt'
+[76.983s] writing manifest file 'ggobuk_bringup.egg-info/SOURCES.txt'
+[77.013s] running build_ext
+[77.019s] Creating /home/crashlab/robot_ws/install/ggobuk_bringup/lib/python3.10/site-packages/ggobuk-bringup.egg-link (link to .)
+[77.054s] 
+[77.055s] Installed /home/crashlab/robot_ws/build/ggobuk_bringup
+[77.066s] running symlink_data
+[77.073s] symbolically linking /home/crashlab/robot_ws/build/ggobuk_bringup/params/nav2_params.yaml -> /home/crashlab/robot_ws/install/ggobuk_bringup/share/ggobuk_bringup/params
+[77.079s] error: [Errno 17] File exists: '/home/crashlab/robot_ws/build/ggobuk_bringup/params/nav2_params.yaml' -> '/home/crashlab/robot_ws/install/ggobuk_bringup/share/ggobuk_bringup/params/nav2_params.yaml'
+[77.949s] Invoked command in '/home/crashlab/robot_ws/build/ggobuk_bringup' returned '1': PYTHONPATH=/home/crashlab/robot_ws/build/ggobuk_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/crashlab/robot_ws/install/ggobuk_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/crashlab/robot_ws/build/ggobuk_bringup/build --no-deps symlink_data

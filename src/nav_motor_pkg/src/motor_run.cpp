@@ -85,6 +85,7 @@ private:
         i_gain2 = msg->data[4];
         d_gain2 = msg->data[5];
     }
+    
     void TimerCallback()
     {
         // RPM 계산
@@ -97,21 +98,26 @@ private:
         now_pwm2 = (now_rpm2 / 100) * 150;
         if (goal_pwm1 > 0 && goal_pwm2 > 0)
         {
-            PidController(0.5795, 0.0012, 0.01, error_gap1, prev_error1, sumError1, goal_pwm1, now_pwm1, dt, pid_control1,
-                          0.54, 0.0012, 0.01, error_gap2, prev_error2, sumError2, goal_pwm2, now_pwm2, pid_control2);
+            PidController(0.55, 0.0, 0.0015, error_gap1, prev_error1, sumError1, goal_pwm1, now_pwm1, dt, pid_control1,
+                          0.45, 0.0, 0.0015, error_gap2, prev_error2, sumError2, goal_pwm2, now_pwm2, pid_control2, 15);
         }
         else if (goal_pwm1 < 0 && goal_pwm2 < 0)
         {
-            PidController(0.5795, 0.0012, 0.01, error_gap1, prev_error1, sumError1, goal_pwm1, now_pwm1, dt, pid_control1,
-                          0.54, 0.0012, 0.01, error_gap2, prev_error2, sumError2, goal_pwm2, now_pwm2, pid_control2);
+            PidController(0.52, 0.0, 0.0015, error_gap1, prev_error1, sumError1, goal_pwm1, now_pwm1, dt, pid_control1,
+                          0.54, 0.0, 0.0015, error_gap2, prev_error2, sumError2, goal_pwm2, now_pwm2, pid_control2, 15);
         }
 
         else
         {
             // PID 제어
-            PidController(p_gain1, i_gain1, d_gain1, error_gap1, prev_error1, sumError1, goal_pwm1, now_pwm1, dt, pid_control1,
-                          p_gain2, i_gain2, d_gain2, error_gap2, prev_error2, sumError2, goal_pwm2, now_pwm2, pid_control2);
+            PidController(0.45, 0.0, 0.0015, error_gap1, prev_error1, sumError1, goal_pwm1, now_pwm1, dt, pid_control1,
+                          0.43, 0.0, 0.0015, error_gap2, prev_error2, sumError2, goal_pwm2, now_pwm2, pid_control2, 30);
         }
+
+        // // // PID 제어
+        // PidController(p_gain1, i_gain1, d_gain1, error_gap1, prev_error1, sumError1, goal_pwm1, now_pwm1, dt, pid_control1,
+        //               p_gain2, i_gain2, d_gain2, error_gap2, prev_error2, sumError2, goal_pwm2, now_pwm2, pid_control2, 15);
+
         // // 방향 및 PWM 설정
         // pid_to_pwm1 = (pid_control1/ 100) * 512;
         // pid_to_pwm2 = (pid_control2/ 100) * 512;
@@ -123,7 +129,7 @@ private:
         // 방향 설정
         direction_flag1 = direction1 ? true : false;
         direction_flag2 = direction2 ? true : false;
-        RCLCPP_INFO(rclcpp::get_logger("Motor run"),"Target PWM 1 : %d   ||   Target PWM 2 : %d",static_cast<int>(target_pwm1), static_cast<int>(target_pwm2));
+        RCLCPP_INFO(rclcpp::get_logger("Motor run"), "Target PWM 1 : %d   ||   Target PWM 2 : %d", static_cast<int>(target_pwm1), static_cast<int>(target_pwm2));
         // 모터 제어
         MotorController(1, direction_flag1, static_cast<int>(target_pwm1));
         MotorController(2, direction_flag2, static_cast<int>(target_pwm2));

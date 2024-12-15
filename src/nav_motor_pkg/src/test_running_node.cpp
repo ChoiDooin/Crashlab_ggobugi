@@ -85,7 +85,7 @@ private:
         pitch = pitch * (180 / M_PI);
         now_pos_heading = yaw * (180 / M_PI);
         
-        // RCLCPP_INFO(rclcpp::get_logger("Odometry"), "x: %f  ||   y: %f   ||   roll: %f   ||   pitch: %f   ||   now_heading : %f", now_pos_x, now_pos_y, roll, pitch, now_pos_heading);
+        RCLCPP_INFO(rclcpp::get_logger("Odometry"), "x: %f  ||   y: %f   ||   roll: %f   ||   pitch: %f   ||   now_heading : %f", now_pos_x, now_pos_y, roll, pitch, now_pos_heading);
      }
 
     void TimerCallback()
@@ -120,12 +120,12 @@ private:
             //     linear_velocity = 0;
             //     angular_velocity = 0;
             // }
-            // linear_velocity = slam_linear_velocity * 8.0;
-            // angular_velocity = slam_angular_velocity * 1.3;
-            linear_velocity = slam_linear_velocity;
+            linear_velocity = slam_linear_velocity * 2.0;
             angular_velocity = slam_angular_velocity;
+            // linear_velocity = slam_linear_velocity;
+            // angular_velocity = slam_angular_velocity;
 
-            RCLCPP_INFO(rclcpp::get_logger("cmd vel"),"linear : %f   ||   angular : %f",linear_velocity, angular_velocity);
+            // RCLCPP_INFO(rclcpp::get_logger("cmd vel"),"linear : %f   ||   angular : %f",linear_velocity, angular_velocity);
             calculateWheelPWM(linear_velocity, angular_velocity, left_pwm, right_pwm);
             PublishGoalPwm(left_pwm, right_pwm);
         }
@@ -133,26 +133,30 @@ private:
         {
             if (cam_area > 180000) // 사람이 화면 가까이 위치
             {
-                if (cam_pose_x > 330) // 사람이 화면 상 오른쪽에 위치
+                if (cam_pose_x > 350) // 사람이 화면 상 오른쪽에 위치
                 {
-                    left_pwm = -45; // 왼쪽으로 회전
-                    right_pwm = -45;
+                    left_pwm = 35; // 왼쪽으로 회전
+                    right_pwm = 35;
                 }
-                else if (cam_pose_x > 310) // 사람이 화면 상 중간에 위치
+                else if (cam_pose_x > 290) // 사람이 화면 상 중간에 위치
                 {
                     left_pwm = 0; // 정지
                     right_pwm = 0;
                 }
                 else // 사람이 화면 상 왼쪽에 위치
                 {
-                    left_pwm = 45; // 오른쪽으로 회전
-                    right_pwm = 45;
+                    left_pwm = -35; // 오른쪽으로 회전
+                    right_pwm = -35;
                 }
             }
-            else
+            else if(cam_area > 10000)
             {                  // 사람이 화면 멀리에 위치
                 left_pwm = 50; // 전진
                 right_pwm = -50;
+            }
+            else {
+                left_pwm = 0;
+                right_pwm = 0;
             }
             PublishGoalPwm(left_pwm, right_pwm);
         }

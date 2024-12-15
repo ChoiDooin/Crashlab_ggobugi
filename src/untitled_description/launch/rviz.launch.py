@@ -13,6 +13,14 @@ def generate_launch_description():
     robot_description_config = xacro.process_file(xacro_file)
     robot_urdf = robot_description_config.toxml()
 
+    twist_mux_params = os.path.join(share_dir,'config','twist_mux.yaml')
+    twist_mux = Node(
+            package="twist_mux",
+            executable="twist_mux",
+            parameters=[twist_mux_params, {'use_sim_time': True}],
+            remappings=[('/cmd_vel_out','/diff_cont/cmd_vel_unstamped')]
+        )
+
     # robot_state_publisher 노드 설정
     robot_state_publisher_node = Node(
         package='robot_state_publisher',
@@ -51,6 +59,7 @@ def generate_launch_description():
 
 
     return LaunchDescription([
+        twist_mux,
         robot_state_publisher_node,
         joint_state_publisher_node,
         tf2_map_to_odom,

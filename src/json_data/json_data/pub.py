@@ -2,8 +2,11 @@ import rclpy
 from rclpy.node import Node
 from ament_index_python.packages import get_package_share_directory
 from geometry_msgs.msg import Point  # 메시지 타입 추가
+from std_msgs.msg import String
 import json
 from pathlib import Path
+
+do = False
 
 class JsonPublisherNode(Node):
     def __init__(self):
@@ -16,29 +19,42 @@ class JsonPublisherNode(Node):
 
         # Publisher 설정 (std_msgs/String 사용)
         self.publisher_ = self.create_publisher(Point, 'json_data', 10)
+        self.User_detect_ = self.create_publisher(String, 'user_detect', 10)
         self.get_logger().info("Publisher created for topic 'json_data'.")
 
         # Timer 설정: 0.5초마다 JSON 파일 읽기 및 발행
         self.timer = self.create_timer(0.5, self.publish_json_data)
 
     def publish_json_data(self):
-        try:
+        try: 
             with open(self.json_file_path, 'r') as file:
                 data = json.load(file)
                 # JSON 데이터의 마지막 항목 추출
-                x = data[-1]["x"]
-                y = data[-1]["y"]
-                size = data[-1]["size"]
+                if data:
+                  x = data[-1]["x"]
+                  y = data[-1]["y"]
+                  size = data[-1]["size"]
 
-                point=Point()
-                point.x=x
-                point.y=y
-                point.z=size
+                  point=Point()
+                  point.x=x
+                  point.y=y
+                  point.z=size
                 
+                else:
+                  global do
+                  point=Point()
+                  point.x=0.0
+                  point.y=0.0
+                  point.z=0.0
+                  user=String()
+                  if not do:
+                    user.data='1'
+                    self.User_detect_.publish(user)
+                    do = True
+                  
                 self.publisher_.publish(point)
-                
+                self.get_logger().info(f"Published: x={point.x}, y={point.y}, size={point.z}")
 
-                self.get_logger().info(f"Published: x={x}, y={y}, size={size}")
         except FileNotFoundError:
             self.get_logger().error(f"File not found: {self.json_file_path}")
         except json.JSONDecodeError:

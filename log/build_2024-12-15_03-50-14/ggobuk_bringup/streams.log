@@ -1,0 +1,16 @@
+[19.233s] Invoking command in '/home/crashlab/robot_ws/build/ggobuk_bringup': PYTHONPATH=/home/crashlab/robot_ws/build/ggobuk_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/crashlab/robot_ws/install/ggobuk_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/crashlab/robot_ws/build/ggobuk_bringup/build --no-deps symlink_data
+[27.239s] running develop
+[32.538s] running egg_info
+[32.539s] writing ggobuk_bringup.egg-info/PKG-INFO
+[32.554s] writing dependency_links to ggobuk_bringup.egg-info/dependency_links.txt
+[32.612s] writing entry points to ggobuk_bringup.egg-info/entry_points.txt
+[32.618s] writing requirements to ggobuk_bringup.egg-info/requires.txt
+[32.620s] writing top-level names to ggobuk_bringup.egg-info/top_level.txt
+[32.634s] reading manifest file 'ggobuk_bringup.egg-info/SOURCES.txt'
+[32.641s] writing manifest file 'ggobuk_bringup.egg-info/SOURCES.txt'
+[32.688s] running build_ext
+[32.691s] Creating /home/crashlab/robot_ws/install/ggobuk_bringup/lib/python3.10/site-packages/ggobuk-bringup.egg-link (link to .)
+[32.693s] 
+[32.713s] Installed /home/crashlab/robot_ws/build/ggobuk_bringup
+[32.742s] running symlink_data
+[33.061s] Invoked command in '/home/crashlab/robot_ws/build/ggobuk_bringup' returned '0': PYTHONPATH=/home/crashlab/robot_ws/build/ggobuk_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/crashlab/robot_ws/install/ggobuk_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/crashlab/robot_ws/build/ggobuk_bringup/build --no-deps symlink_data
