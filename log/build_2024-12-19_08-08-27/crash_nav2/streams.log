@@ -1,0 +1,45 @@
+[3.919s] Invoking command in '/home/crashlab/robot_ws/build/crash_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/home/crashlab/robot_ws/install/coordination:/opt/ros/humble /usr/bin/cmake --build /home/crashlab/robot_ws/build/crash_nav2 -- -j4 -l4
+[7.845s] [ 33%] Built target navigate_controller
+[7.867s] [ 66%] Built target odom_publisher
+[7.869s] [100%] Built target pid_check
+[8.003s] Invoked command in '/home/crashlab/robot_ws/build/crash_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/home/crashlab/robot_ws/install/coordination:/opt/ros/humble /usr/bin/cmake --build /home/crashlab/robot_ws/build/crash_nav2 -- -j4 -l4
+[8.173s] Invoking command in '/home/crashlab/robot_ws/build/crash_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/home/crashlab/robot_ws/install/coordination:/opt/ros/humble /usr/bin/cmake --install /home/crashlab/robot_ws/build/crash_nav2
+[8.436s] -- Install configuration: ""
+[8.440s] -- Execute custom install script
+[8.458s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/crash_nav2/lib/crash_nav2//navigate_controller
+[8.484s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/crash_nav2/lib/crash_nav2//pid_check
+[8.488s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/crash_nav2/lib/crash_nav2/odom_publisher
+[8.501s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/crash_nav2/share/crash_nav2/launch/navigation.launch.py
+[8.511s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/crash_nav2/share/crash_nav2/launch/navigation_rviz.launch.py
+[8.522s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/crash_nav2/share/crash_nav2/launch/online_async_launch.py
+[8.533s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/crash_nav2/share/crash_nav2/map/bad_map.pgm
+[8.547s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/crash_nav2/share/crash_nav2/map/bad_map.yaml
+[8.558s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/crash_nav2/share/crash_nav2/map/bad_map_serial.data
+[8.581s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/crash_nav2/share/crash_nav2/map/bad_map_serial.posegraph
+[8.588s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/crash_nav2/share/crash_nav2/map/map.pgm
+[8.607s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/crash_nav2/share/crash_nav2/map/map.yaml
+[8.636s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/crash_nav2/share/crash_nav2/map/map_serial.data
+[8.663s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/crash_nav2/share/crash_nav2/map/map_serial.posegraph
+[8.706s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/crash_nav2/share/crash_nav2/map/testmap_save.pgm
+[8.766s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/crash_nav2/share/crash_nav2/map/testmap_save.yaml
+[8.816s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/crash_nav2/share/crash_nav2/map/testmap_serial.data
+[8.845s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/crash_nav2/share/crash_nav2/map/testmap_serial.posegraph
+[8.861s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/crash_nav2/share/crash_nav2/param/crash_params.yaml
+[8.910s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/crash_nav2/share/crash_nav2/rviz/tb3_navigation.rviz
+[8.912s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/crash_nav2/share/crash_nav2/config/mapper_params_online_async.yaml
+[8.919s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/crash_nav2/share/ament_index/resource_index/package_run_dependencies/crash_nav2
+[8.954s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/crash_nav2/share/ament_index/resource_index/parent_prefix_path/crash_nav2
+[8.957s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/crash_nav2/share/crash_nav2/environment/ament_prefix_path.sh
+[8.982s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/crash_nav2/share/crash_nav2/environment/ament_prefix_path.dsv
+[8.993s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/crash_nav2/share/crash_nav2/environment/path.sh
+[8.993s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/crash_nav2/share/crash_nav2/environment/path.dsv
+[8.994s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/crash_nav2/share/crash_nav2/local_setup.bash
+[8.995s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/crash_nav2/share/crash_nav2/local_setup.sh
+[8.997s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/crash_nav2/share/crash_nav2/local_setup.zsh
+[9.049s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/crash_nav2/share/crash_nav2/local_setup.dsv
+[9.051s] -- Symlinking: /home/crashlab/robot_ws/install/crash_nav2/share/crash_nav2/package.dsv
+[9.053s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/crash_nav2/share/ament_index/resource_index/packages/crash_nav2
+[9.101s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/crash_nav2/share/crash_nav2/cmake/crash_nav2Config.cmake
+[9.107s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/crash_nav2/share/crash_nav2/cmake/crash_nav2Config-version.cmake
+[9.109s] -- Up-to-date symlink: /home/crashlab/robot_ws/install/crash_nav2/share/crash_nav2/package.xml
+[9.178s] Invoked command in '/home/crashlab/robot_ws/build/crash_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/home/crashlab/robot_ws/install/coordination:/opt/ros/humble /usr/bin/cmake --install /home/crashlab/robot_ws/build/crash_nav2

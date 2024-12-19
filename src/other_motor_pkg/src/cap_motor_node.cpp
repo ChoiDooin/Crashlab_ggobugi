@@ -37,6 +37,7 @@ private:
     }
     void TimerCallback()
     {
+<<<<<<< HEAD
         initMotor();
         if (goNow)
         {
@@ -74,6 +75,45 @@ private:
         gpio_write(pi, DIR_PIN, 0);  // 방향 핀 LOW
         gpio_write(pi, STEP_PIN, 0); // 스텝 핀 LOW
     }
+=======
+        // initMotor();
+        // if (goNow)
+        // {
+        //     int steps = 100; // 1.8도 스텝 각도를 가진 모터의 경우 180도 회전을 위한 스텝 수
+        //     for (int i = 0; i < steps; i++)
+        //     {
+        //         gpio_write(pi, STEP_PIN, 1); // 스텝 핀을 HIGH로 설정
+        //     }
+        // }
+        // else
+        // {
+        //     int steps = 100;
+        //     for (int i = 0; i < steps; i++)
+        //     {
+        //         gpio_write(pi, STEP_PIN, 0); // 스텝 핀을 HIGH로 설정
+        //     }
+        // }
+        RCLCPP_INFO(rclcpp::get_logger(""), "HI");
+    }
+
+    // void initMotor()
+    // {
+    //     pi = pigpio_start(NULL, NULL); // pigpio 데몬에 연결
+    //     if (pi < 0)
+    //     {
+    //         fprintf(stderr, "pigpio 데몬에 연결 실패.\n");
+    //         return;
+    //     }
+
+    //     // 핀 모드 설정
+    //     set_mode(pi, DIR_PIN, PI_OUTPUT);
+    //     set_mode(pi, STEP_PIN, PI_OUTPUT);
+
+    //     // 초기 핀 상태 설정
+    //     gpio_write(pi, DIR_PIN, 0);  // 방향 핀 LOW
+    //     gpio_write(pi, STEP_PIN, 0); // 스텝 핀 LOW
+    // }
+>>>>>>> 27c8e20 (Maybe Final)
 };
 
 int main(int argc, char **argv)

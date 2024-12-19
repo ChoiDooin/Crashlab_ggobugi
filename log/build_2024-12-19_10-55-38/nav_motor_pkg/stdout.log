@@ -1,0 +1,7 @@
+[ 25%] Built target pid_gain_publisher
+[ 37%] [32mBuilding CXX object CMakeFiles/motor_util.dir/src/motor_util.cpp.o[0m
+[ 50%] [32m[1mLinking CXX static library libmotor_util.a[0m
+[ 50%] Built target motor_util
+[ 75%] [32m[1mLinking CXX executable motor_run_node[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/test_running_node.dir/src/test_running_node.cpp.o[0m
+[ 87%] Built target motor_run_node

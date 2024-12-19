@@ -19,16 +19,26 @@ public:
 private:
     void publish_pid_gain()
     {
+<<<<<<< HEAD
         std::vector<double> gains(6, 0.0); // PID 게인을 저장할 벡터 초기화
 
         std::cout << "Enter PID gains (P1, I1, D1, P2, I2, D2): ";
+=======
+        std::vector<double> gains(7, 0.0); // PID 게인을 저장할 벡터 초기화
+
+        std::cout << "Enter PID gains (P1, I1, D1, P2, I2, D2, Max spike): ";
+>>>>>>> 27c8e20 (Maybe Final)
         for (double& gain : gains) {
             std::cin >> gain; // 터미널에서 각 게인 입력받기
         }
 
         auto message = std_msgs::msg::Float64MultiArray();
         message.data = gains; // 입력받은 게인으로 메시지 데이터 설정
+<<<<<<< HEAD
         RCLCPP_INFO(this->get_logger(), "Publishing: '%f', '%f', '%f', '%f', '%f', '%f'", message.data[0], message.data[1], message.data[2], message.data[3], message.data[4], message.data[5]);
+=======
+        RCLCPP_INFO(this->get_logger(), "Publishing: '%f', '%f', '%f', '%f', '%f', '%f', '%f'", message.data[0], message.data[1], message.data[2], message.data[3], message.data[4], message.data[5], message.data[6]);
+>>>>>>> 27c8e20 (Maybe Final)
         publisher_->publish(message);
     }
 

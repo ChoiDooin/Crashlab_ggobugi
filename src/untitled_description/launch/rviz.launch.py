@@ -22,13 +22,17 @@ def generate_launch_description():
             {'robot_description': robot_urdf}
         ]
     )
+<<<<<<< HEAD
 
+=======
+>>>>>>> 27c8e20 (Maybe Final)
     # joint_state_publisher 노드 설정
     joint_state_publisher_node = Node(
         package='joint_state_publisher',
         executable='joint_state_publisher',
         name='joint_state_publisher'
     )
+<<<<<<< HEAD
     
     tf2_map_to_odom = Node(
         package='tf2_ros',
@@ -48,13 +52,18 @@ def generate_launch_description():
         name='tf_static_base_footprint_to_base_link',
         arguments=['0', '0', '0', '0', '0', '0', 'base_footprint', 'base_link']
     )
+=======
+>>>>>>> 27c8e20 (Maybe Final)
 
 
     return LaunchDescription([
         robot_state_publisher_node,
         joint_state_publisher_node,
+<<<<<<< HEAD
         tf2_map_to_odom,
         tf2_odom_to_base_footprint,
         tf2_base_footprint_to_base_link,
+=======
+>>>>>>> 27c8e20 (Maybe Final)
     ])
 

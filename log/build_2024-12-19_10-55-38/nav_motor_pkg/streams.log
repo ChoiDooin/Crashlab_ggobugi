@@ -1,0 +1,28 @@
+[2.924s] Invoking command in '/home/crashlab/robot_ws/build/nav_motor_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/home/crashlab/robot_ws/install/coordination:/opt/ros/humble /usr/bin/cmake --build /home/crashlab/robot_ws/build/nav_motor_pkg -- -j4 -l4
+[3.280s] [ 25%] Built target pid_gain_publisher
+[3.321s] [ 37%] [32mBuilding CXX object CMakeFiles/motor_util.dir/src/motor_util.cpp.o[0m
+[17.828s] [01m[K/home/crashlab/robot_ws/src/nav_motor_pkg/src/motor_util.cpp:[m[K In function ‘[01m[Kint LimitPwm(int&)[m[K’:
+[17.828s] [01m[K/home/crashlab/robot_ws/src/nav_motor_pkg/src/motor_util.cpp:301:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[17.829s]   301 | [01;35m[K}[m[K
+[17.829s]       | [01;35m[K^[m[K
+[17.835s] [01m[K/home/crashlab/robot_ws/src/nav_motor_pkg/src/motor_util.cpp:[m[K In function ‘[01m[Kvoid calculateWheelPWM(double, double, double&, double&)[m[K’:
+[17.836s] [01m[K/home/crashlab/robot_ws/src/nav_motor_pkg/src/motor_util.cpp:457:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmax_velocity[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[17.836s]   457 |     const double [01;35m[Kmax_velocity[m[K = 10; // 최대 바퀴 속도 (m/s) (예: 1m/s)
+[17.837s]       |                  [01;35m[K^~~~~~~~~~~~[m[K
+[19.931s] [ 50%] [32m[1mLinking CXX static library libmotor_util.a[0m
+[20.069s] [ 50%] Built target motor_util
+[20.196s] [ 75%] [32m[1mLinking CXX executable motor_run_node[0m
+[20.200s] [ 75%] [32mBuilding CXX object CMakeFiles/test_running_node.dir/src/test_running_node.cpp.o[0m
+[22.710s] [ 87%] Built target motor_run_node
+[32.722s] [01m[K/home/crashlab/robot_ws/src/nav_motor_pkg/src/test_running_node.cpp:[m[K In member function ‘[01m[Kvoid TestRunner::GoalLocationCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[32.723s] [01m[K/home/crashlab/robot_ws/src/nav_motor_pkg/src/test_running_node.cpp:76:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[32.723s]    76 |     void GoalLocationCallback([01;35m[Kconst std_msgs::msg::String::SharedPtr msg[m[K)
+[32.724s]       |                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[32.767s] [01m[K/home/crashlab/robot_ws/src/nav_motor_pkg/src/test_running_node.cpp:[m[K In member function ‘[01m[Kvoid TestRunner::TimerCallback()[m[K’:
+[32.768s] [01m[K/home/crashlab/robot_ws/src/nav_motor_pkg/src/test_running_node.cpp:158:67:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+[32.768s]   158 |                 slam_angular_velocity = slam_angular_velocity * 0;[01;31m[Ki[m[K
+[32.769s]       |                                                                   [01;31m[K^[m[K
+[54.393s] gmake[2]: *** [CMakeFiles/test_running_node.dir/build.make:76: CMakeFiles/test_running_node.dir/src/test_running_node.cpp.o] Error 1
+[54.394s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/test_running_node.dir/all] Error 2
+[54.396s] gmake: *** [Makefile:146: all] Error 2
+[54.402s] Invoked command in '/home/crashlab/robot_ws/build/nav_motor_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/home/crashlab/robot_ws/install/coordination:/opt/ros/humble /usr/bin/cmake --build /home/crashlab/robot_ws/build/nav_motor_pkg -- -j4 -l4

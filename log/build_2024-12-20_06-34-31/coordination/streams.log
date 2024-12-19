@@ -1,0 +1,18 @@
+[5.941s] Invoking command in '/home/crashlab/robot_ws/build/coordination': PYTHONPATH=/home/crashlab/robot_ws/build/coordination/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/crashlab/robot_ws/install/coordination/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/crashlab/robot_ws/build/coordination/build --no-deps symlink_data
+[8.228s] running develop
+[9.662s] running egg_info
+[9.693s] writing coordination.egg-info/PKG-INFO
+[9.704s] writing dependency_links to coordination.egg-info/dependency_links.txt
+[9.707s] writing entry points to coordination.egg-info/entry_points.txt
+[9.710s] writing requirements to coordination.egg-info/requires.txt
+[9.713s] writing top-level names to coordination.egg-info/top_level.txt
+[9.715s] reading manifest file 'coordination.egg-info/SOURCES.txt'
+[9.719s] writing manifest file 'coordination.egg-info/SOURCES.txt'
+[9.728s] running build_ext
+[9.730s] Creating /home/crashlab/robot_ws/install/coordination/lib/python3.10/site-packages/coordination.egg-link (link to .)
+[9.732s] Installing publisher script to /home/crashlab/robot_ws/install/coordination/lib/coordination
+[9.792s] Installing subscriber script to /home/crashlab/robot_ws/install/coordination/lib/coordination
+[9.794s] 
+[9.795s] Installed /home/crashlab/robot_ws/build/coordination
+[9.797s] running symlink_data
+[10.063s] Invoked command in '/home/crashlab/robot_ws/build/coordination' returned '0': PYTHONPATH=/home/crashlab/robot_ws/build/coordination/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/crashlab/robot_ws/install/coordination/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/crashlab/robot_ws/build/coordination/build --no-deps symlink_data

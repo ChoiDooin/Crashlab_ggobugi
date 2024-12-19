@@ -1,0 +1,5 @@
+[ 25%] Built target motor_util
+[ 50%] Built target pid_gain_publisher
+[35m[1mConsolidate compiler generated dependencies of target test_running_node[0m
+[ 75%] Built target motor_run_node
+[ 87%] [32mBuilding CXX object CMakeFiles/test_running_node.dir/src/test_running_node.cpp.o[0m

@@ -1,0 +1,1 @@
+/home/crashlab/robot_ws/build/crash_nav2/ament_cmake_environment_hooks/local_setup.sh

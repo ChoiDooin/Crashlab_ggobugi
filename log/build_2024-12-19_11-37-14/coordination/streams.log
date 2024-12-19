@@ -1,0 +1,18 @@
+[7.206s] Invoking command in '/home/crashlab/robot_ws/build/coordination': PYTHONPATH=/home/crashlab/robot_ws/build/coordination/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/crashlab/robot_ws/install/coordination/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/crashlab/robot_ws/build/coordination/build --no-deps symlink_data
+[9.130s] running develop
+[10.262s] running egg_info
+[10.263s] writing coordination.egg-info/PKG-INFO
+[10.264s] writing dependency_links to coordination.egg-info/dependency_links.txt
+[10.266s] writing entry points to coordination.egg-info/entry_points.txt
+[10.267s] writing requirements to coordination.egg-info/requires.txt
+[10.267s] writing top-level names to coordination.egg-info/top_level.txt
+[10.276s] reading manifest file 'coordination.egg-info/SOURCES.txt'
+[10.279s] writing manifest file 'coordination.egg-info/SOURCES.txt'
+[10.286s] running build_ext
+[10.287s] Creating /home/crashlab/robot_ws/install/coordination/lib/python3.10/site-packages/coordination.egg-link (link to .)
+[10.290s] Installing publisher script to /home/crashlab/robot_ws/install/coordination/lib/coordination
+[10.291s] Installing subscriber script to /home/crashlab/robot_ws/install/coordination/lib/coordination
+[10.293s] 
+[10.293s] Installed /home/crashlab/robot_ws/build/coordination
+[10.294s] running symlink_data
+[10.431s] Invoked command in '/home/crashlab/robot_ws/build/coordination' returned '0': PYTHONPATH=/home/crashlab/robot_ws/build/coordination/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/crashlab/robot_ws/install/coordination/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/crashlab/robot_ws/build/coordination/build --no-deps symlink_data

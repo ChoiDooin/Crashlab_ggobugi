@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f905e0fead05061b514c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "crash_nav2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "crash_nav2_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crash_nav2_uninstall-69490c93dd849e927c44.json",
+					"name" : "crash_nav2_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navigate_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navigate_controller-6e27fdfaf1f225eca96c.json",
+					"name" : "navigate_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odom_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odom_publisher-cb5de2461cf91a98fa59.json",
+					"name" : "odom_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pid_check::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pid_check-85427ea14bc97ade5119.json",
+					"name" : "pid_check",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-bb6cee916a3ef833e081.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/crashlab/robot_ws/build/crash_nav2",
+		"source" : "/home/crashlab/robot_ws/src/crash_nav2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

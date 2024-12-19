@@ -5,6 +5,11 @@ class MotorRunNode : public rclcpp::Node
 public:
     MotorRunNode() : Node("motor_run_node"), tf_broadcaster_(std::make_shared<tf2_ros::TransformBroadcaster>(this))
     {
+<<<<<<< HEAD
+=======
+        using namespace std::chrono_literals;
+
+>>>>>>> 27c8e20 (Maybe Final)
         // Publisher
         odom_pub_ = this->create_publisher<nav_msgs::msg::Odometry>("/odom", 10);
         pwm_pub_ = this->create_publisher<std_msgs::msg::Float64MultiArray>("/pwm", 10);
@@ -14,7 +19,11 @@ public:
         pid_gain_sub_ = this->create_subscription<std_msgs::msg::Float64MultiArray>("/pid_gain", 10, std::bind(&MotorRunNode::PidGainCallback, this, std::placeholders::_1));
 
         // Timer
+<<<<<<< HEAD
         timer_ = this->create_wall_timer(std::chrono::milliseconds(10), std::bind(&MotorRunNode::TimerCallback, this));
+=======
+        timer_ = this->create_wall_timer(100ms, std::bind(&MotorRunNode::TimerCallback, this));
+>>>>>>> 27c8e20 (Maybe Final)
 
         Initialize(); // 초기화
     }
@@ -46,8 +55,14 @@ private:
     double p_gain2 = 0.0;
     double i_gain2 = 0.0;
     double d_gain2 = 0.0;
+<<<<<<< HEAD
     double dt = 0.01;
     double control_cycle = 10.0;
+=======
+    double dt = 0.1;
+    double control_cycle = 100.0;
+    double spike_max = 0.0;
+>>>>>>> 27c8e20 (Maybe Final)
 
     // PWM 변수
     double now_pwm1 = 0.0, now_pwm2 = 0.0;
@@ -84,7 +99,13 @@ private:
         p_gain2 = msg->data[3];
         i_gain2 = msg->data[4];
         d_gain2 = msg->data[5];
+<<<<<<< HEAD
     }
+=======
+        spike_max = msg->data[6];
+    }
+    
+>>>>>>> 27c8e20 (Maybe Final)
     void TimerCallback()
     {
         // RPM 계산
@@ -97,6 +118,7 @@ private:
         now_pwm2 = (now_rpm2 / 100) * 150;
         if (goal_pwm1 > 0 && goal_pwm2 > 0)
         {
+<<<<<<< HEAD
             PidController(0.5795, 0.0012, 0.01, error_gap1, prev_error1, sumError1, goal_pwm1, now_pwm1, dt, pid_control1,
                           0.54, 0.0012, 0.01, error_gap2, prev_error2, sumError2, goal_pwm2, now_pwm2, pid_control2);
         }
@@ -104,14 +126,34 @@ private:
         {
             PidController(0.5795, 0.0012, 0.01, error_gap1, prev_error1, sumError1, goal_pwm1, now_pwm1, dt, pid_control1,
                           0.54, 0.0012, 0.01, error_gap2, prev_error2, sumError2, goal_pwm2, now_pwm2, pid_control2);
+=======
+            PidController(0.55, 0.0, 0.0015, error_gap1, prev_error1, sumError1, goal_pwm1, now_pwm1, dt, pid_control1,
+                          0.45, 0.0, 0.0015, error_gap2, prev_error2, sumError2, goal_pwm2, now_pwm2, pid_control2, 15);
+        }
+        else if (goal_pwm1 < 0 && goal_pwm2 < 0)
+        {
+            PidController(0.52, 0.0, 0.0015, error_gap1, prev_error1, sumError1, goal_pwm1, now_pwm1, dt, pid_control1,
+                          0.54, 0.0, 0.0015, error_gap2, prev_error2, sumError2, goal_pwm2, now_pwm2, pid_control2, 15);
+>>>>>>> 27c8e20 (Maybe Final)
         }
 
         else
         {
             // PID 제어
+<<<<<<< HEAD
             PidController(p_gain1, i_gain1, d_gain1, error_gap1, prev_error1, sumError1, goal_pwm1, now_pwm1, dt, pid_control1,
                           p_gain2, i_gain2, d_gain2, error_gap2, prev_error2, sumError2, goal_pwm2, now_pwm2, pid_control2);
         }
+=======
+            PidController(0.45, 0.0, 0.0015, error_gap1, prev_error1, sumError1, goal_pwm1, now_pwm1, dt, pid_control1,
+                          0.43, 0.0, 0.0015, error_gap2, prev_error2, sumError2, goal_pwm2, now_pwm2, pid_control2, 30);
+        }
+
+        // // // PID 제어
+        // PidController(p_gain1, i_gain1, d_gain1, error_gap1, prev_error1, sumError1, goal_pwm1, now_pwm1, dt, pid_control1,
+        //               p_gain2, i_gain2, d_gain2, error_gap2, prev_error2, sumError2, goal_pwm2, now_pwm2, pid_control2, spike_max);
+
+>>>>>>> 27c8e20 (Maybe Final)
         // // 방향 및 PWM 설정
         // pid_to_pwm1 = (pid_control1/ 100) * 512;
         // pid_to_pwm2 = (pid_control2/ 100) * 512;
@@ -123,7 +165,11 @@ private:
         // 방향 설정
         direction_flag1 = direction1 ? true : false;
         direction_flag2 = direction2 ? true : false;
+<<<<<<< HEAD
         RCLCPP_INFO(rclcpp::get_logger("Motor run"),"Target PWM 1 : %d   ||   Target PWM 2 : %d",static_cast<int>(target_pwm1), static_cast<int>(target_pwm2));
+=======
+        RCLCPP_INFO(rclcpp::get_logger("Motor run"), "Target PWM 1 : %d   ||   Target PWM 2 : %d", static_cast<int>(target_pwm1), static_cast<int>(target_pwm2));
+>>>>>>> 27c8e20 (Maybe Final)
         // 모터 제어
         MotorController(1, direction_flag1, static_cast<int>(target_pwm1));
         MotorController(2, direction_flag2, static_cast<int>(target_pwm2));
@@ -145,7 +191,11 @@ private:
     PublishOdom(double delta_linear, double delta_angular)
     {
         auto odom_msg = std::make_shared<nav_msgs::msg::Odometry>();
+<<<<<<< HEAD
         odom_msg->header.stamp = this->now();
+=======
+        odom_msg->header.stamp = this->get_clock()->now();
+>>>>>>> 27c8e20 (Maybe Final)
         odom_msg->header.frame_id = "odom";
         odom_msg->child_frame_id = "base_footprint";
 
@@ -166,7 +216,11 @@ private:
 
         // Transform Broadcaster
         geometry_msgs::msg::TransformStamped transform;
+<<<<<<< HEAD
         transform.header.stamp = this->now();
+=======
+        transform.header.stamp = this->get_clock()->now();
+>>>>>>> 27c8e20 (Maybe Final)
         transform.header.frame_id = "odom";
         transform.child_frame_id = "base_footprint";
         transform.transform.translation.x = x;

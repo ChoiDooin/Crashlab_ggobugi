@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing coordination.egg-info/PKG-INFO
+writing dependency_links to coordination.egg-info/dependency_links.txt
+writing entry points to coordination.egg-info/entry_points.txt
+writing requirements to coordination.egg-info/requires.txt
+writing top-level names to coordination.egg-info/top_level.txt
+reading manifest file 'coordination.egg-info/SOURCES.txt'
+writing manifest file 'coordination.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/crashlab/robot_ws/install/coordination/lib/python3.10/site-packages/coordination.egg-link (link to .)
+Installing publisher script to /home/crashlab/robot_ws/install/coordination/lib/coordination
+Installing subscriber script to /home/crashlab/robot_ws/install/coordination/lib/coordination
+
+Installed /home/crashlab/robot_ws/build/coordination
+running symlink_data

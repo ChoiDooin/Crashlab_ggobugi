@@ -1,0 +1,4 @@
+[console_scripts]
+publisher = coordination.publisher:main
+subscriber = coordination.subscriber:main
+

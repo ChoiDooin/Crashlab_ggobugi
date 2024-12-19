@@ -1,0 +1,4 @@
+[1.883s] Invoking command in '/home/crashlab/robot_ws/build/crash_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/crashlab/robot_ws/install/nav_bringup:/home/crashlab/robot_ws/install/json_data:/home/crashlab/robot_ws/install/coordination:/opt/ros/humble /usr/bin/cmake --build /home/crashlab/robot_ws/build/crash_nav2 -- -j4 -l4
+[2.508s] [ 33%] Built target navigate_controller
+[2.512s] [ 66%] Built target odom_publisher
+[2.512s] [100%] Built target pid_check

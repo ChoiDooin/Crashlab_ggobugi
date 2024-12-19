@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+coordination/__init__.py
+coordination/publisher.py
+coordination/subscriber.py
+coordination.egg-info/PKG-INFO
+coordination.egg-info/SOURCES.txt
+coordination.egg-info/dependency_links.txt
+coordination.egg-info/entry_points.txt
+coordination.egg-info/requires.txt
+coordination.egg-info/top_level.txt
+coordination.egg-info/zip-safe
+resource/coordination

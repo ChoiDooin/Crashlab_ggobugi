@@ -14,6 +14,10 @@
 #include "tf2_ros/transform_broadcaster.h"
 #include "ament_index_cpp/get_package_share_directory.hpp"
 #include "std_msgs/msg/float64_multi_array.hpp"
+<<<<<<< HEAD
+=======
+#include "std_msgs/msg/int64_multi_array.hpp"
+>>>>>>> 27c8e20 (Maybe Final)
 #include "std_msgs/msg/string.hpp"
 #include "tf2/utils.h"
 
@@ -68,7 +72,10 @@ extern int pwm_frequency;
 extern int pwm_range;
 extern int pwm_limit;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 27c8e20 (Maybe Final)
 // 파라미터 로드 함수
 void LoadParameters();
 
@@ -100,9 +107,17 @@ void CalculateRpm(double dt, double &now_rpm1, double &now_rpm2);
 void CalculateOdom(double dt, double &delta_linear, double &delta_angular);
 
 void PidController(double p_gain1, double i_gain1, double d_gain1, double errorGap1, double &prevError1, double &sumError1, double target_rpm1, double current_rpm1, double time_interval, double &filteredPidControl1,
+<<<<<<< HEAD
                 double p_gain2, double i_gain2, double d_gain2, double errorGap2, double &prevError2, double &sumError2, double target_rpm2, double current_rpm2, double &filteredPidControl2);
+=======
+                double p_gain2, double i_gain2, double d_gain2, double errorGap2, double &prevError2, double &sumError2, double target_rpm2, double current_rpm2, double &filteredPidControl2, double max_spike_threshold);
+>>>>>>> 27c8e20 (Maybe Final)
 // 모터 상태 출력 함수
 void InfoMotors();
 
 void calculateWheelPWM(double linear_velocity, double angular_velocity, double &pwm_left, double &pwm_right);
+<<<<<<< HEAD
 #endif // MOTOR_NODE_HPP
+=======
+#endif // MOTOR_NODE_HPP
+>>>>>>> 27c8e20 (Maybe Final)
